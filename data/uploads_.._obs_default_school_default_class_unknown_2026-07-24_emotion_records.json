@@ -1,0 +1,26 @@
+{
+  "schema_version": "2.0",
+  "school": "",
+  "class_name": "",
+  "student_code": "unknown",
+  "student_profile": {
+    "student_id": 1,
+    "student_code": "unknown",
+    "name": "未知",
+    "class_name": "",
+    "school": "",
+    "baseline_mood": 0.7
+  },
+  "emotion_records": [
+    {
+      "record_id": 1,
+      "timestamp": "2026-07-24T15:17:48.473197",
+      "data": {
+        "test": "data"
+      }
+    }
+  ],
+  "record_count": 1,
+  "generated_at": "2026-07-24T15:17:48.473200",
+  "generator": "MindMirror-PsychMonitor-v2.0"
+}

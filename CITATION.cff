@@ -1,0 +1,37 @@
+# 若仓库地址确定后，把 repository-code 与 url 填上（两处 <REPO-URL>）
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the manuscript below."
+title: "Replication package for: Replication Instability in Experience Replay for Multi-Agent LLM Pipelines"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Jianhao
+    affiliation: "School of Artificial Intelligence, South China Normal University"
+  - family-names: Liu
+    given-names: Shouqiang
+    affiliation: "School of Artificial Intelligence, South China Normal University"
+repository-code: "<REPO-URL>"
+url: "<REPO-URL>"
+license: MIT
+keywords:
+  - multi-agent systems
+  - large language models
+  - experience replay
+  - replication
+  - evaluation methodology
+abstract: >-
+  Code, raw results, and figures for a replication study of experience replay in a
+  five-agent LLM pipeline. Across fifteen controlled comparisons on two language models,
+  no replay effect reproduces; the study identifies the resolution of the retrieval key,
+  rather than the size of the store, as the parameter governing what the mechanism can
+  return.
+preferred-citation:
+  type: article
+  title: "Replication Instability in Experience Replay for Multi-Agent LLM Pipelines"
+  authors:
+    - family-names: Wang
+      given-names: Jianhao
+    - family-names: Liu
+      given-names: Shouqiang
+  journal: "Autonomous Agents and Multi-Agent Systems"
+  status: submitted

@@ -1,0 +1,74 @@
+[
+  {
+    "profile": "张三",
+    "risk": "yellow",
+    "ds_self": 8.6,
+    "ling_on_ds": 8.6
+  },
+  {
+    "profile": "张三",
+    "risk": "green",
+    "ds_self": 8.4,
+    "ling_on_ds": 8.6
+  },
+  {
+    "profile": "张三",
+    "risk": "yellow",
+    "ds_self": 7.8,
+    "ling_on_ds": 8.6
+  },
+  {
+    "profile": "张三",
+    "risk": "yellow",
+    "ds_self": 7.6,
+    "ling_on_ds": 8.2
+  },
+  {
+    "profile": "张三",
+    "risk": "yellow",
+    "ds_self": 8.0,
+    "ling_on_ds": 8.2
+  },
+  {
+    "profile": "张三",
+    "risk": "green",
+    "ds_self": 8.8,
+    "ling_on_ds": 8.6
+  },
+  {
+    "profile": "张三",
+    "risk": "green",
+    "ds_self": 7.8,
+    "ling_on_ds": 8.6
+  },
+  {
+    "profile": "李四",
+    "risk": "yellow",
+    "ds_self": 8.4,
+    "ling_on_ds": 8.6
+  },
+  {
+    "profile": "李四",
+    "risk": "yellow",
+    "ds_self": 8.0,
+    "ling_on_ds": 8.6
+  },
+  {
+    "profile": "李四",
+    "risk": "yellow",
+    "ds_self": 8.4,
+    "ling_on_ds": 8.6
+  },
+  {
+    "profile": "李四",
+    "risk": "yellow",
+    "ds_self": 8.2,
+    "ling_on_ds": 8.6
+  },
+  {
+    "profile": "李四",
+    "risk": "yellow",
+    "ds_self": 8.2,
+    "ling_on_ds": 8.6
+  }
+]

@@ -1,0 +1,1308 @@
+[
+  {
+    "student_name": "张三",
+    "date": "2026-07-30",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "中性",
+      "fused_score": 0.639,
+      "fused_valence": 0.118,
+      "fused_arousal": 0.452
+    },
+    "analysis_result": {
+      "overall_score": 0.639,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.851,
+        "positive_emotion_ratio": 0.462,
+        "negative_emotion_ratio": 0.231,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.034,
+        "emotion_recovery_speed": 0.769
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "张三",
+    "date": "2026-07-31",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "开心",
+      "fused_score": 0.731,
+      "fused_valence": 0.333,
+      "fused_arousal": 0.552
+    },
+    "analysis_result": {
+      "overall_score": 0.731,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.898,
+        "positive_emotion_ratio": 0.692,
+        "negative_emotion_ratio": 0.154,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.016,
+        "emotion_recovery_speed": 0.846
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "张三",
+    "date": "2026-08-01",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "开心",
+      "fused_score": 0.628,
+      "fused_valence": 0.291,
+      "fused_arousal": 0.263
+    },
+    "analysis_result": {
+      "overall_score": 0.628,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.816,
+        "positive_emotion_ratio": 0.692,
+        "negative_emotion_ratio": 0.154,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.028,
+        "emotion_recovery_speed": 0.846
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "张三",
+    "date": "2026-08-02",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "开心",
+      "fused_score": 0.689,
+      "fused_valence": 0.169,
+      "fused_arousal": 0.558
+    },
+    "analysis_result": {
+      "overall_score": 0.689,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.857,
+        "positive_emotion_ratio": 0.538,
+        "negative_emotion_ratio": 0.308,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.044,
+        "emotion_recovery_speed": 0.692
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "张三",
+    "date": "2026-08-03",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "开心",
+      "fused_score": 0.618,
+      "fused_valence": 0.114,
+      "fused_arousal": 0.408
+    },
+    "analysis_result": {
+      "overall_score": 0.618,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.909,
+        "positive_emotion_ratio": 0.462,
+        "negative_emotion_ratio": 0.385,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.035,
+        "emotion_recovery_speed": 0.615
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "张三",
+    "date": "2026-08-04",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "惊讶",
+      "fused_score": 0.72,
+      "fused_valence": 0.152,
+      "fused_arousal": 0.692
+    },
+    "analysis_result": {
+      "overall_score": 0.72,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.916,
+        "positive_emotion_ratio": 0.615,
+        "negative_emotion_ratio": 0.231,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.019,
+        "emotion_recovery_speed": 0.769
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "张三",
+    "date": "2026-08-05",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "开心",
+      "fused_score": 0.896,
+      "fused_valence": 0.137,
+      "fused_arousal": 0.684
+    },
+    "analysis_result": {
+      "overall_score": 0.896,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.993,
+        "positive_emotion_ratio": 0.2,
+        "negative_emotion_ratio": 0.0,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.0,
+        "emotion_recovery_speed": 1.0
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "李四",
+    "date": "2026-07-30",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "平静",
+      "fused_score": 0.516,
+      "fused_valence": 0.126,
+      "fused_arousal": -0.007
+    },
+    "analysis_result": {
+      "overall_score": 0.516,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.977,
+        "positive_emotion_ratio": 0.769,
+        "negative_emotion_ratio": 0.154,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.003,
+        "emotion_recovery_speed": 0.846
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "李四",
+    "date": "2026-07-31",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "开心",
+      "fused_score": 0.685,
+      "fused_valence": 0.062,
+      "fused_arousal": 0.62
+    },
+    "analysis_result": {
+      "overall_score": 0.685,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.881,
+        "positive_emotion_ratio": 0.538,
+        "negative_emotion_ratio": 0.385,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.046,
+        "emotion_recovery_speed": 0.615
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "李四",
+    "date": "2026-08-01",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "焦虑",
+      "fused_score": 0.576,
+      "fused_valence": -0.166,
+      "fused_arousal": 0.454
+    },
+    "analysis_result": {
+      "overall_score": 0.576,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.924,
+        "positive_emotion_ratio": 0.385,
+        "negative_emotion_ratio": 0.615,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.047,
+        "emotion_recovery_speed": 0.385
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "李四",
+    "date": "2026-08-02",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "惊讶",
+      "fused_score": 0.569,
+      "fused_valence": -0.079,
+      "fused_arousal": 0.32
+    },
+    "analysis_result": {
+      "overall_score": 0.569,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.868,
+        "positive_emotion_ratio": 0.385,
+        "negative_emotion_ratio": 0.385,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.051,
+        "emotion_recovery_speed": 0.615
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "李四",
+    "date": "2026-08-03",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "中性",
+      "fused_score": 0.53,
+      "fused_valence": -0.081,
+      "fused_arousal": 0.21
+    },
+    "analysis_result": {
+      "overall_score": 0.53,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.904,
+        "positive_emotion_ratio": 0.385,
+        "negative_emotion_ratio": 0.385,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.037,
+        "emotion_recovery_speed": 0.615
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "李四",
+    "date": "2026-08-04",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "开心",
+      "fused_score": 0.616,
+      "fused_valence": 0.058,
+      "fused_arousal": 0.394
+    },
+    "analysis_result": {
+      "overall_score": 0.616,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.828,
+        "positive_emotion_ratio": 0.538,
+        "negative_emotion_ratio": 0.308,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.053,
+        "emotion_recovery_speed": 0.692
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "王五",
+    "date": "2026-07-30",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "平静",
+      "fused_score": 0.585,
+      "fused_valence": 0.051,
+      "fused_arousal": 0.227
+    },
+    "analysis_result": {
+      "overall_score": 0.585,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.903,
+        "positive_emotion_ratio": 0.462,
+        "negative_emotion_ratio": 0.308,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.03,
+        "emotion_recovery_speed": 0.692
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "王五",
+    "date": "2026-07-31",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "中性",
+      "fused_score": 0.551,
+      "fused_valence": 0.012,
+      "fused_arousal": 0.204
+    },
+    "analysis_result": {
+      "overall_score": 0.551,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.973,
+        "positive_emotion_ratio": 0.462,
+        "negative_emotion_ratio": 0.154,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.004,
+        "emotion_recovery_speed": 0.846
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "王五",
+    "date": "2026-08-01",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "中性",
+      "fused_score": 0.601,
+      "fused_valence": 0.094,
+      "fused_arousal": 0.297
+    },
+    "analysis_result": {
+      "overall_score": 0.601,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.888,
+        "positive_emotion_ratio": 0.538,
+        "negative_emotion_ratio": 0.231,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.026,
+        "emotion_recovery_speed": 0.769
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "王五",
+    "date": "2026-08-02",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "开心",
+      "fused_score": 0.611,
+      "fused_valence": 0.105,
+      "fused_arousal": 0.337
+    },
+    "analysis_result": {
+      "overall_score": 0.611,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.875,
+        "positive_emotion_ratio": 0.538,
+        "negative_emotion_ratio": 0.385,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.048,
+        "emotion_recovery_speed": 0.615
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "王五",
+    "date": "2026-08-03",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "中性",
+      "fused_score": 0.606,
+      "fused_valence": 0.011,
+      "fused_arousal": 0.398
+    },
+    "analysis_result": {
+      "overall_score": 0.606,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.88,
+        "positive_emotion_ratio": 0.385,
+        "negative_emotion_ratio": 0.231,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.028,
+        "emotion_recovery_speed": 0.769
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "王五",
+    "date": "2026-08-04",
+    "risk_level": "yellow",
+    "emotion_data": {
+      "fused_emotion": "平静",
+      "fused_score": 0.613,
+      "fused_valence": 0.031,
+      "fused_arousal": 0.366
+    },
+    "analysis_result": {
+      "overall_score": 0.613,
+      "risk_level": "yellow",
+      "indicators": {
+        "emotional_stability_index": 0.926,
+        "positive_emotion_ratio": 0.692,
+        "negative_emotion_ratio": 0.308,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.023,
+        "emotion_recovery_speed": 0.692
+      },
+      "risk_factors": [
+        "情绪波动偏大"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生0",
+    "date": "2026-08-10",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "开心",
+      "fused_score": 0.86,
+      "fused_valence": 0.215,
+      "fused_arousal": 0.393
+    },
+    "analysis_result": {
+      "overall_score": 0.86,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.726,
+        "positive_emotion_ratio": 0.929,
+        "negative_emotion_ratio": 0.071,
+        "trend": "上升",
+        "stress_accumulation_index": 0.019,
+        "emotion_recovery_speed": 0.929
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "上升"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生1",
+    "date": "2026-08-11",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "开心",
+      "fused_score": 0.848,
+      "fused_valence": 0.219,
+      "fused_arousal": 0.266
+    },
+    "analysis_result": {
+      "overall_score": 0.848,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.707,
+        "positive_emotion_ratio": 0.874,
+        "negative_emotion_ratio": 0.126,
+        "trend": "上升",
+        "stress_accumulation_index": 0.037,
+        "emotion_recovery_speed": 0.874
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "上升"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生2",
+    "date": "2026-08-12",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "平静",
+      "fused_score": 0.879,
+      "fused_valence": 0.621,
+      "fused_arousal": 0.494
+    },
+    "analysis_result": {
+      "overall_score": 0.879,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.902,
+        "positive_emotion_ratio": 0.862,
+        "negative_emotion_ratio": 0.138,
+        "trend": "上升",
+        "stress_accumulation_index": 0.014,
+        "emotion_recovery_speed": 0.862
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "上升"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生3",
+    "date": "2026-08-13",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "平静",
+      "fused_score": 0.89,
+      "fused_valence": 0.296,
+      "fused_arousal": 0.496
+    },
+    "analysis_result": {
+      "overall_score": 0.89,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.939,
+        "positive_emotion_ratio": 0.927,
+        "negative_emotion_ratio": 0.073,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.004,
+        "emotion_recovery_speed": 0.927
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生4",
+    "date": "2026-08-14",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "平静",
+      "fused_score": 0.726,
+      "fused_valence": 0.428,
+      "fused_arousal": 0.451
+    },
+    "analysis_result": {
+      "overall_score": 0.726,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.902,
+        "positive_emotion_ratio": 0.859,
+        "negative_emotion_ratio": 0.141,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.014,
+        "emotion_recovery_speed": 0.859
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生5",
+    "date": "2026-08-15",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "惊讶",
+      "fused_score": 0.834,
+      "fused_valence": 0.784,
+      "fused_arousal": 0.465
+    },
+    "analysis_result": {
+      "overall_score": 0.834,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.857,
+        "positive_emotion_ratio": 0.906,
+        "negative_emotion_ratio": 0.094,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.013,
+        "emotion_recovery_speed": 0.906
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生6",
+    "date": "2026-08-16",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "开心",
+      "fused_score": 0.844,
+      "fused_valence": 0.623,
+      "fused_arousal": 0.232
+    },
+    "analysis_result": {
+      "overall_score": 0.844,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.946,
+        "positive_emotion_ratio": 0.834,
+        "negative_emotion_ratio": 0.166,
+        "trend": "上升",
+        "stress_accumulation_index": 0.009,
+        "emotion_recovery_speed": 0.834
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "上升"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生7",
+    "date": "2026-08-17",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "平静",
+      "fused_score": 0.917,
+      "fused_valence": 0.428,
+      "fused_arousal": 0.517
+    },
+    "analysis_result": {
+      "overall_score": 0.917,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.789,
+        "positive_emotion_ratio": 0.926,
+        "negative_emotion_ratio": 0.074,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.016,
+        "emotion_recovery_speed": 0.926
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生8",
+    "date": "2026-08-18",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "惊讶",
+      "fused_score": 0.875,
+      "fused_valence": 0.61,
+      "fused_arousal": 0.25
+    },
+    "analysis_result": {
+      "overall_score": 0.875,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.882,
+        "positive_emotion_ratio": 0.924,
+        "negative_emotion_ratio": 0.076,
+        "trend": "上升",
+        "stress_accumulation_index": 0.009,
+        "emotion_recovery_speed": 0.924
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "上升"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生9",
+    "date": "2026-08-19",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "惊讶",
+      "fused_score": 0.816,
+      "fused_valence": 0.362,
+      "fused_arousal": 0.848
+    },
+    "analysis_result": {
+      "overall_score": 0.816,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.871,
+        "positive_emotion_ratio": 0.866,
+        "negative_emotion_ratio": 0.134,
+        "trend": "上升",
+        "stress_accumulation_index": 0.017,
+        "emotion_recovery_speed": 0.866
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "上升"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生10",
+    "date": "2026-08-20",
+    "risk_level": "green",
+    "emotion_data": {
+      "fused_emotion": "平静",
+      "fused_score": 0.757,
+      "fused_valence": 0.219,
+      "fused_arousal": 0.421
+    },
+    "analysis_result": {
+      "overall_score": 0.757,
+      "risk_level": "green",
+      "indicators": {
+        "emotional_stability_index": 0.928,
+        "positive_emotion_ratio": 0.94,
+        "negative_emotion_ratio": 0.06,
+        "trend": "稳定",
+        "stress_accumulation_index": 0.004,
+        "emotion_recovery_speed": 0.94
+      },
+      "risk_factors": [],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "稳定"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生11",
+    "date": "2026-08-21",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "焦虑",
+      "fused_score": 0.164,
+      "fused_valence": -0.5,
+      "fused_arousal": 0.887
+    },
+    "analysis_result": {
+      "overall_score": 0.164,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.293,
+        "positive_emotion_ratio": 0.412,
+        "negative_emotion_ratio": 0.588,
+        "trend": "下降",
+        "stress_accumulation_index": 0.416,
+        "emotion_recovery_speed": 0.412
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生12",
+    "date": "2026-08-22",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "焦虑",
+      "fused_score": 0.174,
+      "fused_valence": -0.463,
+      "fused_arousal": 0.545
+    },
+    "analysis_result": {
+      "overall_score": 0.174,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.404,
+        "positive_emotion_ratio": 0.421,
+        "negative_emotion_ratio": 0.579,
+        "trend": "下降",
+        "stress_accumulation_index": 0.345,
+        "emotion_recovery_speed": 0.421
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生13",
+    "date": "2026-08-23",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "愤怒",
+      "fused_score": 0.209,
+      "fused_valence": -0.202,
+      "fused_arousal": 0.476
+    },
+    "analysis_result": {
+      "overall_score": 0.209,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.216,
+        "positive_emotion_ratio": 0.523,
+        "negative_emotion_ratio": 0.477,
+        "trend": "下降",
+        "stress_accumulation_index": 0.374,
+        "emotion_recovery_speed": 0.523
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生14",
+    "date": "2026-08-24",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "愤怒",
+      "fused_score": 0.133,
+      "fused_valence": -0.424,
+      "fused_arousal": 0.836
+    },
+    "analysis_result": {
+      "overall_score": 0.133,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.335,
+        "positive_emotion_ratio": 0.371,
+        "negative_emotion_ratio": 0.629,
+        "trend": "下降",
+        "stress_accumulation_index": 0.418,
+        "emotion_recovery_speed": 0.371
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生15",
+    "date": "2026-08-25",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "焦虑",
+      "fused_score": 0.279,
+      "fused_valence": -0.519,
+      "fused_arousal": 0.538
+    },
+    "analysis_result": {
+      "overall_score": 0.279,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.204,
+        "positive_emotion_ratio": 0.292,
+        "negative_emotion_ratio": 0.708,
+        "trend": "下降",
+        "stress_accumulation_index": 0.564,
+        "emotion_recovery_speed": 0.292
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生16",
+    "date": "2026-08-26",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "愤怒",
+      "fused_score": 0.316,
+      "fused_valence": -0.391,
+      "fused_arousal": 0.695
+    },
+    "analysis_result": {
+      "overall_score": 0.316,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.319,
+        "positive_emotion_ratio": 0.319,
+        "negative_emotion_ratio": 0.681,
+        "trend": "下降",
+        "stress_accumulation_index": 0.463,
+        "emotion_recovery_speed": 0.319
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生17",
+    "date": "2026-08-27",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "焦虑",
+      "fused_score": 0.188,
+      "fused_valence": -0.705,
+      "fused_arousal": 0.402
+    },
+    "analysis_result": {
+      "overall_score": 0.188,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.292,
+        "positive_emotion_ratio": 0.287,
+        "negative_emotion_ratio": 0.713,
+        "trend": "下降",
+        "stress_accumulation_index": 0.504,
+        "emotion_recovery_speed": 0.287
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生18",
+    "date": "2026-08-28",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "焦虑",
+      "fused_score": 0.25,
+      "fused_valence": -0.693,
+      "fused_arousal": 0.902
+    },
+    "analysis_result": {
+      "overall_score": 0.25,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.424,
+        "positive_emotion_ratio": 0.46,
+        "negative_emotion_ratio": 0.54,
+        "trend": "下降",
+        "stress_accumulation_index": 0.311,
+        "emotion_recovery_speed": 0.46
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生19",
+    "date": "2026-08-29",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "焦虑",
+      "fused_score": 0.283,
+      "fused_valence": -0.708,
+      "fused_arousal": 0.819
+    },
+    "analysis_result": {
+      "overall_score": 0.283,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.523,
+        "positive_emotion_ratio": 0.264,
+        "negative_emotion_ratio": 0.736,
+        "trend": "下降",
+        "stress_accumulation_index": 0.351,
+        "emotion_recovery_speed": 0.264
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生20",
+    "date": "2026-08-10",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "悲伤",
+      "fused_score": 0.376,
+      "fused_valence": -0.441,
+      "fused_arousal": 0.669
+    },
+    "analysis_result": {
+      "overall_score": 0.376,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.508,
+        "positive_emotion_ratio": 0.271,
+        "negative_emotion_ratio": 0.729,
+        "trend": "下降",
+        "stress_accumulation_index": 0.359,
+        "emotion_recovery_speed": 0.271
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生21",
+    "date": "2026-08-11",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "焦虑",
+      "fused_score": 0.349,
+      "fused_valence": -0.615,
+      "fused_arousal": 0.432
+    },
+    "analysis_result": {
+      "overall_score": 0.349,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.23,
+        "positive_emotion_ratio": 0.266,
+        "negative_emotion_ratio": 0.734,
+        "trend": "下降",
+        "stress_accumulation_index": 0.565,
+        "emotion_recovery_speed": 0.266
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生22",
+    "date": "2026-08-12",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "悲伤",
+      "fused_score": 0.246,
+      "fused_valence": -0.758,
+      "fused_arousal": 0.818
+    },
+    "analysis_result": {
+      "overall_score": 0.246,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.366,
+        "positive_emotion_ratio": 0.511,
+        "negative_emotion_ratio": 0.489,
+        "trend": "下降",
+        "stress_accumulation_index": 0.31,
+        "emotion_recovery_speed": 0.511
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生23",
+    "date": "2026-08-13",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "愤怒",
+      "fused_score": 0.265,
+      "fused_valence": -0.641,
+      "fused_arousal": 0.88
+    },
+    "analysis_result": {
+      "overall_score": 0.265,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.525,
+        "positive_emotion_ratio": 0.261,
+        "negative_emotion_ratio": 0.739,
+        "trend": "下降",
+        "stress_accumulation_index": 0.351,
+        "emotion_recovery_speed": 0.261
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  },
+  {
+    "student_name": "合成学生24",
+    "date": "2026-08-14",
+    "risk_level": "red",
+    "emotion_data": {
+      "fused_emotion": "愤怒",
+      "fused_score": 0.327,
+      "fused_valence": -0.386,
+      "fused_arousal": 0.792
+    },
+    "analysis_result": {
+      "overall_score": 0.327,
+      "risk_level": "red",
+      "indicators": {
+        "emotional_stability_index": 0.427,
+        "positive_emotion_ratio": 0.251,
+        "negative_emotion_ratio": 0.749,
+        "trend": "下降",
+        "stress_accumulation_index": 0.429,
+        "emotion_recovery_speed": 0.251
+      },
+      "risk_factors": [
+        "持续负面情绪",
+        "情绪恢复缓慢"
+      ],
+      "suggestions": [],
+      "llm_prediction": {
+        "trend_prediction": "下降"
+      }
+    }
+  }
+]

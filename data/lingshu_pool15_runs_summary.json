@@ -1,0 +1,33 @@
+{
+  "model": "lingshu",
+  "n_runs": 5,
+  "pool_size": 15,
+  "minutes": 95.6,
+  "runs": [
+    {
+      "run_tag": 1,
+      "pool_size": 15,
+      "path": "C:\\Users\\王建豪\\Desktop\\心镜\\代码\\scripts\\paper\\..\\..\\data\\lingshu_pool15_run1.json"
+    },
+    {
+      "run_tag": 2,
+      "pool_size": 15,
+      "path": "C:\\Users\\王建豪\\Desktop\\心镜\\代码\\scripts\\paper\\..\\..\\data\\lingshu_pool15_run2.json"
+    },
+    {
+      "run_tag": 3,
+      "pool_size": 15,
+      "path": "C:\\Users\\王建豪\\Desktop\\心镜\\代码\\scripts\\paper\\..\\..\\data\\lingshu_pool15_run3.json"
+    },
+    {
+      "run_tag": 4,
+      "pool_size": 15,
+      "path": "C:\\Users\\王建豪\\Desktop\\心镜\\代码\\scripts\\paper\\..\\..\\data\\lingshu_pool15_run4.json"
+    },
+    {
+      "run_tag": 5,
+      "pool_size": 15,
+      "path": "C:\\Users\\王建豪\\Desktop\\心镜\\代码\\scripts\\paper\\..\\..\\data\\lingshu_pool15_run5.json"
+    }
+  ]
+}

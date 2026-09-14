@@ -1,0 +1,7 @@
+# 论文实验与出图所需（不含平台服务端依赖）
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+python-docx>=1.1
+openai>=1.30
+pydantic-settings>=2.0

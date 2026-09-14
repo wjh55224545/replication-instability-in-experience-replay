@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "n_warmup": 8,
+    "n_per_config": 12
+  },
+  "results": [
+    {
+      "name": "top_k=1",
+      "top_k": 1,
+      "min_rating": 4,
+      "position": "system",
+      "mean": 8.1,
+      "n": 12,
+      "scores": [
+        8.2,
+        8.6,
+        8.2,
+        8.2,
+        7.2,
+        8.2,
+        8.4,
+        7.2,
+        8.4,
+        8.2,
+        8.2,
+        8.2
+      ]
+    },
+    {
+      "name": "top_k=2",
+      "top_k": 2,
+      "min_rating": 4,
+      "position": "system",
+      "mean": 8.117,
+      "n": 12,
+      "scores": [
+        7.4,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.0,
+        8.2
+      ]
+    },
+    {
+      "name": "top_k=3",
+      "top_k": 3,
+      "min_rating": 4,
+      "position": "system",
+      "mean": 8.067,
+      "n": 12,
+      "scores": [
+        7.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        7.2,
+        8.2,
+        8.4,
+        8.2,
+        8.2,
+        8.4
+      ]
+    },
+    {
+      "name": "min_rating=3",
+      "top_k": 2,
+      "min_rating": 3,
+      "position": "system",
+      "mean": 8.117,
+      "n": 12,
+      "scores": [
+        8.2,
+        8.2,
+        7.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2
+      ]
+    },
+    {
+      "name": "min_rating=4",
+      "top_k": 2,
+      "min_rating": 4,
+      "position": "system",
+      "mean": 8.15,
+      "n": 12,
+      "scores": [
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        7.8,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.0
+      ]
+    },
+    {
+      "name": "min_rating=5",
+      "top_k": 2,
+      "min_rating": 5,
+      "position": "system",
+      "mean": 8.117,
+      "n": 12,
+      "scores": [
+        8.2,
+        8.2,
+        8.2,
+        7.8,
+        7.8,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.0
+      ]
+    },
+    {
+      "name": "position=system",
+      "top_k": 2,
+      "min_rating": 4,
+      "position": "system",
+      "mean": 8.1,
+      "n": 12,
+      "scores": [
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.0,
+        8.2,
+        7.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2
+      ]
+    },
+    {
+      "name": "position=user",
+      "top_k": 2,
+      "min_rating": 4,
+      "position": "user",
+      "mean": 8.05,
+      "n": 12,
+      "scores": [
+        8.2,
+        8.2,
+        7.4,
+        7.2,
+        8.0,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.2,
+        8.4
+      ]
+    }
+  ]
+}

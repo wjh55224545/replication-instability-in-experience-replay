@@ -1,0 +1,17 @@
+{
+  "record_id": 317,
+  "storage_path": "示范中学/计算机科学2024/2024-CS-001/2026-07-30/emotion_records.json",
+  "upload": {
+    "upload_id": "upload-52019b8b3b6cec98-1",
+    "etag": "30a7a87721ce723c977ce4ea46f739d9",
+    "chunks": 1,
+    "completed_at": "2026-07-30T22:03:49.366665"
+  },
+  "payload_info": {
+    "record_count": 1,
+    "student_code": "2024-CS-001",
+    "date": "2026-07-30"
+  },
+  "data_checksum": "477d5212f9c2ec793f7386dcdc02d952ff9ef8526f0817d3b24661c20757f1d8",
+  "metadata_version": "1.0"
+}

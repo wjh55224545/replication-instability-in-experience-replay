@@ -1,0 +1,58 @@
+{
+  "schema_version": "2.0",
+  "school": "",
+  "class_name": "",
+  "student_code": "unknown",
+  "student_profile": {
+    "student_id": 1,
+    "student_code": "unknown",
+    "name": "未知",
+    "class_name": "",
+    "school": "",
+    "baseline_mood": 0.7
+  },
+  "emotion_records": [
+    {
+      "record_id": 1,
+      "timestamp": "2026-07-18T18:00:51.752083",
+      "data": {
+        "facial_emotion": "开心",
+        "facial_conf": 0.798,
+        "facial_valence": 0.149,
+        "facial_arousal": 0.2,
+        "vestibular_valence": 0.502,
+        "vestibular_arousal": 0.619,
+        "vestibular_confidence": 0.804,
+        "vestibular_intensity": 0.71,
+        "vi_aggression": null,
+        "vi_stress": null,
+        "vi_tension": null,
+        "vi_suspect": null,
+        "vi_balance": null,
+        "vi_charm": null,
+        "vi_energy": null,
+        "vi_self_regulation": null,
+        "vi_inhibition": null,
+        "vi_neuroticism": null,
+        "vi_depression": null,
+        "vi_happiness": null,
+        "vi_stability": null,
+        "vi_K_value": null,
+        "vi_K_interpretation": null,
+        "vi_n_windows": null,
+        "vi_duration_sec": null,
+        "fused_emotion": "开心",
+        "fused_score": 0.896,
+        "fused_valence": 0.29,
+        "fused_arousal": 0.368,
+        "confidence_diff": 0.006,
+        "requires_review": false,
+        "estimated_accuracy": 0.91,
+        "processing_time_ms": 97
+      }
+    }
+  ],
+  "record_count": 1,
+  "generated_at": "2026-07-18T18:00:51.752087",
+  "generator": "MindMirror-PsychMonitor-v2.0"
+}

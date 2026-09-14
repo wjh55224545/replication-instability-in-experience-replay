@@ -1,0 +1,19 @@
+# 密钥 —— 绝不提交
+.env
+.env.bak*
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 出图脚本的中间产物（PNG 已提交，无需重复生成）
+# 如不希望提交 PNG，取消下一行注释
+# figures/*.png
+
+# 大文件 / 无关产物
+data/uploads/
+data/demo/
+data/camera/
+data/yolov8n.pt

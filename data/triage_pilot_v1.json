@@ -1,0 +1,3009 @@
+{
+  "n_profiles": 44,
+  "n_repeat": 3,
+  "field_acc": {
+    "risk_tier": 0.5984848484848485,
+    "primary_concern": 0.2196969696969697,
+    "action": 0.5984848484848485,
+    "followup_days": 0.5909090909090909
+  },
+  "full_acc": 0.12121212121212122,
+  "results": [
+    {
+      "name": "张三",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": null,
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "张三",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 7
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 7
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 1,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 7
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 1,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 1,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 1,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "李四",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": null,
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stress",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "王五",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生0",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生0",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生0",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生1",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生1",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生1",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生2",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生2",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生2",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生3",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": null,
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生3",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生3",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生4",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生4",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "合成学生4",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生5",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生5",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生5",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生6",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生6",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生6",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生7",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生7",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "合成学生7",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生8",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生8",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生8",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生9",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "合成学生9",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "合成学生9",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "negative",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生10",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生10",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "recovery",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生10",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "pred": {
+        "risk_tier": "green",
+        "primary_concern": "stability",
+        "action": "常规跟进",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "合成学生11",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "合成学生11",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生11",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": null,
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生12",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生12",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "合成学生12",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 7
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生13",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "stability",
+        "action": "加强观察",
+        "followup_days": 4
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 1,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生13",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "三日内约谈",
+        "followup_days": 6
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生13",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 4
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生14",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生14",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "合成学生14",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "合成学生15",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生15",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生15",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "stability",
+        "action": "加强观察",
+        "followup_days": 4
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 1,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生16",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": null,
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生16",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生16",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生17",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 3
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生17",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生17",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": null,
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生18",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "stress",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生18",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "三日内约谈",
+        "followup_days": 6
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生18",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": null,
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生19",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "recovery",
+        "action": "加强观察",
+        "followup_days": 1
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生19",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "三日内约谈",
+        "followup_days": 6
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 1,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生19",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "stability",
+        "action": "三日内约谈",
+        "followup_days": 6
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生20",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "三日内约谈",
+        "followup_days": 6
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 1,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生20",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "三日内约谈",
+        "followup_days": 6
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 1,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生20",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": null,
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生21",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生21",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生21",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 0,
+        "action": 1,
+        "followup_days": 1,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生22",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "加强观察",
+        "followup_days": 4
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生22",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "三日内约谈",
+        "followup_days": 6
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 0,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生22",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "stability",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "stability",
+        "action": "三日内约谈",
+        "followup_days": 6
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 1,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生23",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "合成学生23",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "三日内约谈",
+        "followup_days": 6
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 1,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生23",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "yellow",
+        "primary_concern": "negative",
+        "action": "三日内约谈",
+        "followup_days": 6
+      },
+      "score": {
+        "risk_tier": 0,
+        "primary_concern": 1,
+        "action": 0,
+        "followup_days": 0,
+        "all": 0
+      }
+    },
+    {
+      "name": "合成学生24",
+      "rep": 0,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "合成学生24",
+      "rep": 1,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    },
+    {
+      "name": "合成学生24",
+      "rep": 2,
+      "truth": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "pred": {
+        "risk_tier": "red",
+        "primary_concern": "negative",
+        "action": "立即约谈",
+        "followup_days": 10
+      },
+      "score": {
+        "risk_tier": 1,
+        "primary_concern": 1,
+        "action": 1,
+        "followup_days": 1,
+        "all": 1
+      }
+    }
+  ]
+}

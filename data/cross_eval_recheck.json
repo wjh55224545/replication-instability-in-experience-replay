@@ -1,0 +1,12 @@
+{
+  "n_reports": 12,
+  "n_dims": 60,
+  "level_shift": 1.605555555555556,
+  "dimension_r": 0.5516463877534491,
+  "dimension_p": 4.914009732484435e-06,
+  "report_r": -0.6963444288649514,
+  "report_p": 0.011878248682209932,
+  "judge_stability": "11/12",
+  "external_mean": 6.544444444444444,
+  "self_mean": 8.15
+}

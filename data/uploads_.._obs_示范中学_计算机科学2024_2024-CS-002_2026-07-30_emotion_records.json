@@ -1,0 +1,58 @@
+{
+  "schema_version": "2.0",
+  "school": "示范中学",
+  "class_name": "计算机科学2024",
+  "student_code": "2024-CS-002",
+  "student_profile": {
+    "student_id": 2,
+    "student_code": "2024-CS-002",
+    "name": "李四",
+    "class_name": "计算机科学2024",
+    "school": "示范中学",
+    "baseline_mood": 0.55
+  },
+  "emotion_records": [
+    {
+      "record_id": 318,
+      "timestamp": "2026-07-30T22:03:49.392482",
+      "data": {
+        "facial_emotion": null,
+        "facial_conf": null,
+        "facial_valence": null,
+        "facial_arousal": null,
+        "vestibular_valence": null,
+        "vestibular_arousal": null,
+        "vestibular_confidence": null,
+        "vestibular_intensity": null,
+        "vi_aggression": null,
+        "vi_stress": null,
+        "vi_tension": null,
+        "vi_suspect": null,
+        "vi_balance": null,
+        "vi_charm": null,
+        "vi_energy": null,
+        "vi_self_regulation": null,
+        "vi_inhibition": null,
+        "vi_neuroticism": null,
+        "vi_depression": null,
+        "vi_happiness": null,
+        "vi_stability": null,
+        "vi_K_value": null,
+        "vi_K_interpretation": null,
+        "vi_n_windows": null,
+        "vi_duration_sec": null,
+        "fused_emotion": null,
+        "fused_score": null,
+        "fused_valence": null,
+        "fused_arousal": null,
+        "confidence_diff": null,
+        "requires_review": null,
+        "estimated_accuracy": null,
+        "processing_time_ms": null
+      }
+    }
+  ],
+  "record_count": 1,
+  "generated_at": "2026-07-30T22:03:49.392498",
+  "generator": "MindMirror-PsychMonitor-v2.0"
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": 1,
+  "storage_path": "default_school/default_class/unknown/2026-07-24/emotion_records.json",
+  "upload": {
+    "upload_id": "upload-9f400502a4eb3d91-1",
+    "etag": "adf5be90c061360ff3bfa06f4296800f",
+    "chunks": 1,
+    "completed_at": "2026-07-24T15:17:48.473239"
+  },
+  "payload_info": {
+    "record_count": 1,
+    "student_code": "unknown",
+    "date": "2026-07-24"
+  },
+  "data_checksum": "bdd007df448d494e0d3e31436201b3c5bcaaf4d8328ec04143ca9b9dd2a533de",
+  "metadata_version": "1.0"
+}

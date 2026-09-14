@@ -1,0 +1,146 @@
+{
+  "R01": {
+    "condition": "random",
+    "risk": "yellow",
+    "llm_scores": {
+      "专业性": 8,
+      "相关性": 9,
+      "共情性": 7,
+      "建议可操作性": 8,
+      "结构完整性": 9
+    },
+    "llm_mean": 8.2
+  },
+  "R02": {
+    "condition": "random",
+    "risk": "green",
+    "llm_scores": {
+      "专业性": 8,
+      "相关性": 9,
+      "共情性": 7,
+      "建议可操作性": 8,
+      "结构完整性": 9
+    },
+    "llm_mean": 8.2
+  },
+  "R03": {
+    "condition": "semantic",
+    "risk": "green",
+    "llm_scores": {
+      "专业性": 8,
+      "相关性": 9,
+      "共情性": 7,
+      "建议可操作性": 7,
+      "结构完整性": 9
+    },
+    "llm_mean": 8.0
+  },
+  "R04": {
+    "condition": "semantic",
+    "risk": "green",
+    "llm_scores": {
+      "专业性": 8,
+      "相关性": 9,
+      "共情性": 7,
+      "建议可操作性": 8,
+      "结构完整性": 9
+    },
+    "llm_mean": 8.2
+  },
+  "R05": {
+    "condition": "baseline",
+    "risk": "red",
+    "llm_scores": {
+      "专业性": 8,
+      "相关性": 9,
+      "共情性": 7,
+      "建议可操作性": 8,
+      "结构完整性": 9
+    },
+    "llm_mean": 8.2
+  },
+  "R06": {
+    "condition": "semantic",
+    "risk": "green",
+    "llm_scores": {
+      "专业性": 8,
+      "相关性": 9,
+      "共情性": 7,
+      "建议可操作性": 7,
+      "结构完整性": 9
+    },
+    "llm_mean": 8.0
+  },
+  "R07": {
+    "condition": "semantic",
+    "risk": "red",
+    "llm_scores": {
+      "专业性": 8,
+      "相关性": 9,
+      "共情性": 7,
+      "建议可操作性": 7,
+      "结构完整性": 9
+    },
+    "llm_mean": 8.0
+  },
+  "R08": {
+    "condition": "random",
+    "risk": "yellow",
+    "llm_scores": {
+      "专业性": 8,
+      "相关性": 9,
+      "共情性": 7,
+      "建议可操作性": 8,
+      "结构完整性": 9
+    },
+    "llm_mean": 8.2
+  },
+  "R09": {
+    "condition": "random",
+    "risk": "red",
+    "llm_scores": {
+      "专业性": 8,
+      "相关性": 9,
+      "共情性": 7,
+      "建议可操作性": 8,
+      "结构完整性": 9
+    },
+    "llm_mean": 8.2
+  },
+  "R10": {
+    "condition": "semantic",
+    "risk": "yellow",
+    "llm_scores": {
+      "专业性": 8,
+      "相关性": 9,
+      "共情性": 7,
+      "建议可操作性": 8,
+      "结构完整性": 9
+    },
+    "llm_mean": 8.2
+  },
+  "R11": {
+    "condition": "random",
+    "risk": "yellow",
+    "llm_scores": {
+      "专业性": 8,
+      "相关性": 9,
+      "共情性": 7,
+      "建议可操作性": 8,
+      "结构完整性": 9
+    },
+    "llm_mean": 8.2
+  },
+  "R12": {
+    "condition": "random",
+    "risk": "red",
+    "llm_scores": {
+      "专业性": 8,
+      "相关性": 9,
+      "共情性": 7,
+      "建议可操作性": 8,
+      "结构完整性": 9
+    },
+    "llm_mean": 8.2
+  }
+}

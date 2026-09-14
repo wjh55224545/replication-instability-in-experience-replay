@@ -1,0 +1,17 @@
+{
+  "record_id": 3,
+  "storage_path": "/实验班/TEST001/2026-07-24/emotion_records.json",
+  "upload": {
+    "upload_id": "upload-0ea67be9af294ed3-1",
+    "etag": "6fdeff2e12bead9f375c00d149ce1db3",
+    "chunks": 1,
+    "completed_at": "2026-07-24T16:32:26.567078"
+  },
+  "payload_info": {
+    "record_count": 1,
+    "student_code": "TEST001",
+    "date": "2026-07-24"
+  },
+  "data_checksum": "360b5ab7e1d1e672f05ea38ed6361643c424b64eeea4d1e8e1d655686af17cb9",
+  "metadata_version": "1.0"
+}
