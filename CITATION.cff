@@ -1,4 +1,4 @@
-# 若仓库地址确定后，把 repository-code 与 url 填上（两处 <REPO-URL>）
+
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the manuscript below."
 title: "Replication package for: Replication Instability in Experience Replay for Multi-Agent LLM Pipelines"
@@ -10,8 +10,8 @@ authors:
   - family-names: Liu
     given-names: Shouqiang
     affiliation: "School of Artificial Intelligence, South China Normal University"
-repository-code: "<REPO-URL>"
-url: "<REPO-URL>"
+repository-code: "https://github.com/wjh55224545/replication-instability-in-experience-replay"
+url: "https://github.com/wjh55224545/replication-instability-in-experience-replay"
 license: MIT
 keywords:
   - multi-agent systems

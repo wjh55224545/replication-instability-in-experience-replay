@@ -23,8 +23,8 @@ number of distinct values that key takes in the store — rather than by the num
 ## Quick start
 
 ```bash
-git clone <this-repo>
-cd <this-repo>
+git clone https://github.com/wjh55224545/replication-instability-in-experience-replay.git
+cd replication-instability-in-experience-replay
 pip install -r requirements.txt
 ```
 
