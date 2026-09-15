@@ -25,7 +25,13 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "..", "data")
-OUT = os.path.join(os.path.dirname(__file__), "..", "..", "..", "jaamas_journal")
+# 输出目录：项目内写到 jaamas_journal/；复现包内写回自己的 figures/。
+# 坑（2026-09-15）：复现包位于项目**内部**，故不能用「三层上跳是否存在」判别
+# ——那条路径在包里同样成立，图会被写到包**外面**去。改用「同级是否存在 figures/」判别。
+_HERE = os.path.dirname(os.path.abspath(__file__))
+_PKG_FIGS = os.path.join(_HERE, "..", "..", "figures")
+_PROJ = os.path.join(_HERE, "..", "..", "..", "jaamas_journal")
+OUT = _PKG_FIGS if os.path.isdir(_PKG_FIGS) else _PROJ
 
 plt.rcParams.update({
     "font.family": "Times New Roman",

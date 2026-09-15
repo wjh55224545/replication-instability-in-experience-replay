@@ -18,7 +18,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 
-OUT = os.path.join(os.path.dirname(__file__), "..", "..", "..", "jaamas_journal")
+# 输出目录：项目内写到 jaamas_journal/；复现包内写回自己的 figures/。
+# 坑（2026-09-15）：复现包位于项目**内部**，故不能用「三层上跳是否存在」判别
+# ——那条路径在包里同样成立，图会被写到包**外面**去。改用「同级是否存在 figures/」判别。
+_HERE = os.path.dirname(os.path.abspath(__file__))
+_PKG_FIGS = os.path.join(_HERE, "..", "..", "figures")
+_PROJ = os.path.join(_HERE, "..", "..", "..", "jaamas_journal")
+OUT = _PKG_FIGS if os.path.isdir(_PKG_FIGS) else _PROJ
 
 plt.rcParams["font.family"] = "Times New Roman"
 plt.rcParams["font.size"] = 10
@@ -114,11 +120,12 @@ def fig_pipeline():
 
 def fig_poolsize():
     """池子大小 × 模型的效应对比。"""
+    # p 值为**双尾**（2026-09-15 全稿由单尾改双尾，此处同步）
     data = {
-        ("M1", 15): (-0.048, 0.2209, -0.062, 0.0648),
-        ("M1", 45): (-0.106, 0.0221, -0.090, 0.0084),
-        ("M2", 15): (0.147, 0.0003, 0.046, 0.1205),
-        ("M2", 45): (0.030, 0.1364, 0.012, 0.3733),
+        ("M1", 15): (-0.048, 0.4419, -0.062, 0.1297),
+        ("M1", 45): (-0.106, 0.0441, -0.090, 0.0168),
+        ("M2", 15): (0.147, 0.0005, 0.046, 0.2410),
+        ("M2", 45): (0.030, 0.2729, 0.012, 0.7465),
     }
     labels = ["M1\npool 15", "M1\npool 45", "M2\npool 15", "M2\npool 45"]
     keys = [("M1", 15), ("M1", 45), ("M2", 15), ("M2", 45)]
