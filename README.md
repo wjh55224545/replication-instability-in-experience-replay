@@ -176,7 +176,7 @@ Two behaviours matter if you re-run experiments:
 
 If you use this code or data, please cite the manuscript (details on acceptance). Until then:
 
-> Wang, J., & Liu, S. *Replication Instability in Experience Replay for Multi-Agent LLM Pipelines.*
+> Wang, J., Wu, K., & Liu, S. *Replication Instability in Experience Replay for Multi-Agent LLM Pipelines.*
 > Manuscript under review.
 
 Correspondence: Shouqiang Liu (corresponding author), School of Artificial Intelligence,
