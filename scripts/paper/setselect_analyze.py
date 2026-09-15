@@ -7,7 +7,7 @@
     Δ / SE   ——  主观任务该比值 0.6~3.5，横跨显著阈值，故结论翻转
     若客观任务该比值显著更大且集中在阈值同侧，边界预测成立。
 
-运行（在本仓库根目录）：python scripts/paper/setselect_analyze.py
+运行：cd 代码 && D:/python/python.exe scripts/paper/setselect_analyze.py
 """
 
 from __future__ import annotations
@@ -17,6 +17,14 @@ import sys
 import json
 import numpy as np
 from scipy import stats
+
+# 中文 Windows 的控制台默认编码是 GBK，打印 `I²` 一类的上标字符会抛
+# UnicodeEncodeError 并**在脚本中途退出**（下面的 I² 汇总就输出不到）。
+# 强制 UTF-8 输出，保证脚本在任一平台都跑得完。
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:                                       # noqa: BLE001
+    pass
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "..", "data")
 
@@ -52,8 +60,7 @@ def analyze_model(path: str, label: str) -> dict | None:
                 continue
             df = X - B
             try:
-                _, p = stats.wilcoxon(df)
-                p /= 2
+                _, p = stats.wilcoxon(df)      # 双尾；2026-09-15 起不再 /2
             except Exception:                               # noqa: BLE001
                 p = float("nan")
             se = df.std(ddof=1) / np.sqrt(len(df))

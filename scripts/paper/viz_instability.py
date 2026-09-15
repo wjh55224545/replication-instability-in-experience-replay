@@ -10,9 +10,9 @@
   - **标注三处关键对比**：两个单次运行方向相反、池大小比较、同配置第二次运行
   - 两面板共享 x 轴与图例，配色沿用（单次=红 / 三次重复=蓝 / 第二次运行=橙）
 
-输出 figures/fig_instability.pdf / .png
+输出 jaamas_journal/fig_instability.pdf / .png
 
-运行（在本仓库根目录）：python scripts/paper/viz_instability.py
+运行：cd 代码 && D:/python/python.exe scripts/paper/viz_instability.py
 """
 
 from __future__ import annotations
@@ -26,9 +26,9 @@ import numpy as np
 from scipy import stats
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "..", "data")
-# 坑（2026-09-12）：原输出到已废弃的 docs/aamas/，而论文用的是 figures/ 下的同名文件
+# 坑（2026-09-12）：原输出到已废弃的 docs/aamas/，而论文用的是 jaamas_journal/ 下的同名文件
 # —— 重跑本脚本**不会**更新论文里的图，改动会静默丢失。
-OUT = os.path.join(os.path.dirname(__file__), "..", "..", "figures")
+OUT = os.path.join(os.path.dirname(__file__), "..", "..", "..", "jaamas_journal")
 
 plt.rcParams.update({
     "font.family": "Times New Roman",
@@ -88,8 +88,7 @@ def paired_stats(path, cond=None):
     se = diff.std(ddof=1) / np.sqrt(n)
     t = stats.t.ppf(0.975, n - 1)
     try:
-        _, p = stats.wilcoxon(diff)
-        p /= 2
+        _, p = stats.wilcoxon(diff)            # 双尾；2026-09-15 起不再 /2
     except Exception:
         p = float("nan")
     return diff.mean(), t * se, p, n
@@ -152,7 +151,7 @@ def main():
                             ("run2", "3 repetitions (run 2)")]]
     fig.legend(handles=handles, frameon=False, fontsize=8.8, ncol=3,
                loc="lower center", bbox_to_anchor=(0.5, -0.035))
-    fig.text(0.5, -0.115, "* $p<0.05$ (one-tailed Wilcoxon signed-rank);  "
+    fig.text(0.5, -0.115, "* $p<0.05$ (two-tailed Wilcoxon signed-rank);  "
                           "error bars: 95% CI",
              ha="center", va="top", fontsize=8.5, style="italic")
 

@@ -4,7 +4,7 @@
 口径 C：同时报「组内 pooled SD」与「配置间配对差值 SD」两个口径，
 证明换哪个口径结论都不变。
 
-运行（在本仓库根目录）：python scripts/paper/power_numbers.py
+运行：cd 代码 && D:/python/python.exe scripts/paper/power_numbers.py
 """
 from __future__ import annotations
 import json
@@ -16,8 +16,13 @@ from scipy import stats
 D = os.path.join(os.path.dirname(__file__), "..", "..", "data")
 
 
-def mdes(sd, n, alpha=0.05, power=0.80, tail=1):
-    """配对 t 检验的最小可检测效应（原始单位），单尾默认。"""
+def mdes(sd, n, alpha=0.05, power=0.80, tail=2):
+    """配对 t 检验的最小可检测效应（原始单位），双尾默认。
+
+    2026-09-15：由 tail=1 改为 tail=2，与全文改双尾检验保持一致。
+    口径统一后 MDES 变大（约 ×1.22），即「可检出的最小效应更高」——
+    这与论文的论点同向：该效应量下本研究本就不足以分辨。
+    """
     df = n - 1
     t_crit = stats.t.ppf(1 - alpha / tail, df)
     lo, hi = 0.0, 80.0
@@ -30,7 +35,7 @@ def mdes(sd, n, alpha=0.05, power=0.80, tail=1):
     return ((lo + hi) / 2) * sd / np.sqrt(n)
 
 
-def n_for(delta, sd, alpha=0.05, power=0.80, tail=1):
+def n_for(delta, sd, alpha=0.05, power=0.80, tail=2):
     n = 2
     while n < 200000:
         if mdes(sd, n, alpha, power, tail) <= delta:
@@ -58,7 +63,7 @@ def main() -> None:
     print()
     for label, sd in (("组内 pooled", pooled), ("配置间差值", sd_diff)):
         print(f"  --- 口径：{label} (SD={sd:.3f}) ---")
-        print(f"      n=12 时 MDES（配对·单尾）= {mdes(sd,12):.4f} 点")
+        print(f"      n=12 时 MDES（配对·双尾）= {mdes(sd,12):.4f} 点")
         for d in (0.03, 0.05, 0.10):
             print(f"      检出 {d:.2f} 点需要 {n_for(d,sd)} 份档案/条件")
         print()
@@ -94,7 +99,7 @@ def main() -> None:
                     dd.append(r[c] - b)
     dd = np.array(dd)
     print(f"\n  主实验配对差值（三次重复取均值后）: n={len(dd)}  SD={dd.std(ddof=1):.4f}")
-    print(f"  n=29 份档案时 MDES（配对·单尾）= {mdes(dd.std(ddof=1),29):.4f} 点")
+    print(f"  n=29 份档案时 MDES（配对·双尾）= {mdes(dd.std(ddof=1),29):.4f} 点")
 
 
 if __name__ == "__main__":

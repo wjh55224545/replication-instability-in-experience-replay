@@ -4,7 +4,7 @@
 把同一配置（M2 / 池45 / 重复3次 / random 条件）的多次独立运行汇总，
 刻画效应估计的分布 —— 论文核心论点的决定性证据。
 
-运行（在本仓库根目录）：python scripts/paper/analyze_replicates.py
+运行：cd 代码 && D:/python/python.exe scripts/paper/analyze_replicates.py
 """
 
 from __future__ import annotations
@@ -36,7 +36,7 @@ def one_run(path, rk, mk):
     for name, arr in [("random", R), ("matched", M)]:
         df = arr - B[:len(arr)]
         try:
-            _, p = stats.wilcoxon(df); p /= 2
+            _, p = stats.wilcoxon(df)          # 双尾；2026-09-15 起不再 /2
         except Exception:
             p = float("nan")
         dz = df.mean() / df.std(ddof=1) if df.std(ddof=1) > 0 else 0.0

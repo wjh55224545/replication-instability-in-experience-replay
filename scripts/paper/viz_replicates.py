@@ -10,9 +10,9 @@
   - p 值统一右对齐于固定列，避免与误差条重叠
   - 提高分辨率（400 dpi）、放大字号、统一网格与边框
 
-输出 figures/fig_replicates.pdf / .png
+输出 jaamas_journal/fig_replicates.pdf / .png
 
-运行（在本仓库根目录）：python scripts/paper/viz_replicates.py
+运行：cd 代码 && D:/python/python.exe scripts/paper/viz_replicates.py
 """
 
 from __future__ import annotations
@@ -25,7 +25,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "..", "data")
-OUT = os.path.join(os.path.dirname(__file__), "..", "..", "figures")
+OUT = os.path.join(os.path.dirname(__file__), "..", "..", "..", "jaamas_journal")
 
 plt.rcParams.update({
     "font.family": "Times New Roman",
@@ -62,8 +62,7 @@ def stats_for(path: str, key: str = "random"):
     X = np.array([r[f"{key}_mean"] for r in rs])
     df = X - B
     try:
-        _, p = stats.wilcoxon(df)
-        p /= 2
+        _, p = stats.wilcoxon(df)              # 双尾；2026-09-15 起不再 /2
     except Exception:                                       # noqa: BLE001
         p = float("nan")
     se = df.std(ddof=1) / np.sqrt(len(df))

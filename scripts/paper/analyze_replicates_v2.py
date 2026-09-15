@@ -8,8 +8,8 @@
 对每个模型汇总「同一配置 N 次独立运行」的效应估计分布，并给出跨模型对照。
 
 用法：
-    python scripts/paper/analyze_replicates_v2.py
-    python scripts/paper/analyze_replicates_v2.py lingshu 5
+    cd 代码 && D:/python/python.exe scripts/paper/analyze_replicates_v2.py
+    D:/python/python.exe scripts/paper/analyze_replicates_v2.py lingshu 5
 """
 
 from __future__ import annotations
@@ -34,8 +34,9 @@ def one_run(path: str, rk: str = "random", mk: str = "semantic"):
             continue
         df = X - B
         try:
+            # 双尾（scipy 默认）。2026-09-15 起不再手工折半为单尾——论文的主张
+            # 「效应不稳定」无方向，单尾会放大 I 类错误。
             _, p = stats.wilcoxon(df)
-            p /= 2
         except Exception:                                   # noqa: BLE001
             p = float("nan")
         se = df.std(ddof=1) / np.sqrt(len(df))

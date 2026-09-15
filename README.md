@@ -36,6 +36,7 @@ python scripts/paper/verify_degeneration.py     # the key-resolution measurement
 python scripts/paper/pool_compare.py            # the 5-vs-5 Mann–Whitney comparison (Sec. 5.3)
 python scripts/paper/heterogeneity.py           # Cochran's Q, I², τ² (Sec. 5.4)
 python scripts/paper/power_numbers.py           # detectable-effect figures (Sec. 5.7)
+python scripts/paper/recompute_two_tailed.py    # every p-value, one- vs two-tailed, plus the FDR check
 python scripts/paper/recheck_mdes.py            # recomputes them, and checks the formula
 python scripts/paper/check_profile_distribution.py   # profile construction vs. the record store (Sec. 4.1)
 python scripts/paper/probe_psychdb.py           # every aggregation variant of the source database
@@ -89,6 +90,7 @@ python scripts/paper/run_ab_repeated.py
 | §5.5 evaluator analysis | `cross_eval_recheck.py` (needs API), `cross_eval_reverse.py` | `data/cross_eval_recheck.json` |
 | §5.7 ablation | `run_ablation.py` | `data/ablation_results.json` |
 | §5.7 power figures | `power_numbers.py`, `recheck_mdes.py` | prints |
+| §5.4 multiplicity (FDR) | `recompute_two_tailed.py` | `data/two_tailed_recompute.json` |
 | §5.8 safety checks | `safety_check.py` | prints |
 | §5.9 cross-task validation | `setselect_task.py`, `setselect_experiment.py`, `setselect_analyze.py` | `data/setselect_*.json` |
 | Figures 1–3 | `viz_jaamas.py`, `viz_instability.py`, `viz_replicates.py` | `figures/` |

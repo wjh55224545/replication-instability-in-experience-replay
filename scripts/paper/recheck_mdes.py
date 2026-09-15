@@ -9,22 +9,33 @@
 
 本脚本用真实数据核实：配对差值的 SD 是多少？正确的 MDES 是多少？
 
-运行（在本仓库根目录）：python scripts/paper/recheck_mdes.py
+运行：cd 代码 && D:/python/python.exe scripts/paper/recheck_mdes.py
 """
 from __future__ import annotations
 import json
 import os
+import sys
 
 import numpy as np
 from scipy import stats
+
+# 中文 Windows 的控制台默认编码是 GBK，打印 `²` 会抛 UnicodeEncodeError 并
+# 在脚本中途退出。强制 UTF-8 输出。
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:                                       # noqa: BLE001
+    pass
 
 D = os.path.join(os.path.dirname(__file__), "..", "..", "data")
 
 
 def mdes(sd, n, alpha=0.05, power=0.80):
-    """单尾配对 t 检验的最小可检测效应（原始单位）。"""
+    """双尾配对 t 检验的最小可检测效应（原始单位）。
+
+    2026-09-15：由单尾改为双尾，与全文检验口径统一（见 power_numbers.py）。
+    """
     df = n - 1
-    t_crit = stats.t.ppf(1 - alpha, df)
+    t_crit = stats.t.ppf(1 - alpha / 2, df)
     lo, hi = 0.0, 60.0
     for _ in range(200):
         mid = (lo + hi) / 2
@@ -68,7 +79,7 @@ def main() -> None:
     print("\n=== 论文 §5.7 的数字复核 ===")
     s_paper, n_ab = 0.373, 12
     print(f"  论文称 s={s_paper}, n={n_ab} → MDES=0.43 点")
-    print(f"  正确（配对、单尾）MDES = {mdes(s_paper, n_ab):.4f} 点")
+    print(f"  正确（配对、双尾）MDES = {mdes(s_paper, n_ab):.4f} 点")
     print(f"  论文称检出 0.10 需 ~218；配对公式需要 {n_for(0.10, s_paper)}")
     print(f"  论文称检出 0.03 需 ~2400；配对公式需要 {n_for(0.03, s_paper)}")
     print()

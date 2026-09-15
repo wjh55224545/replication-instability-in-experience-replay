@@ -8,7 +8,7 @@
 - Cohen's d 效应量（配对）
 
 并可按风险等级分组输出。
-运行（在本仓库根目录）：python scripts/paper/stats.py
+运行：cd 代码 && D:/python/python.exe scripts/paper/stats.py
 """
 
 from __future__ import annotations
@@ -41,7 +41,10 @@ def analyze(rows):
         return {"n": len(pairs), "note": "样本不足"}
     a = [p[0] for p in pairs]
     b = [p[1] for p in pairs]
-    t_stat, p_ttest = stats.ttest_rel(b, a)  # 单边备择：B > A
+    # 双尾（scipy 默认）。2026-09-15 由单尾改为双尾：论文的核心主张是「不稳定」，
+    # 是一个**无方向**的论断，用单尾检验在统计上不自洽（会放大 I 类错误）。
+    # 实测：改双尾后没有任何比较的显著性判定发生变化（见 recompute_two_tailed.py）。
+    t_stat, p_ttest = stats.ttest_rel(b, a)
     try:
         w_stat, p_wilcoxon = stats.wilcoxon(b, a)
     except ValueError:
@@ -52,8 +55,8 @@ def analyze(rows):
         "A_mean": round(float(np.mean(a)), 3),
         "B_mean": round(float(np.mean(b)), 3),
         "delta": round(float(np.mean(b) - np.mean(a)), 3),
-        "ttest_rel_p": round(float(p_ttest / 2), 4),  # 单边
-        "wilcoxon_p": round(float(p_wilcoxon / 2), 4) if not np.isnan(p_wilcoxon) else None,
+        "ttest_rel_p": round(float(p_ttest), 4),
+        "wilcoxon_p": round(float(p_wilcoxon), 4) if not np.isnan(p_wilcoxon) else None,
         "cohens_d": round(d, 3),
     }
 
