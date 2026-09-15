@@ -2,12 +2,12 @@
 JAAMAS 期刊版补充图 (viz_jaamas.py)
 ===================================
 生成两张图：
-  fig_pipeline.pdf  —— 五智能体流水线与反馈回路示意图
+  Fig1.pdf  —— 五智能体流水线与反馈回路示意图（官方要求图片按 "Fig<编号>" 命名）
   fig_poolsize.pdf  —— 池子大小与重复次数的效应对比
 
-输出到仓库根目录的 figures/
+输出到 jaamas_journal/
 
-运行（在本仓库根目录）：python scripts/paper/viz_jaamas.py
+运行：cd 代码 && D:/python/python.exe scripts/paper/viz_jaamas.py
 """
 
 from __future__ import annotations
@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 
-OUT = os.path.join(os.path.dirname(__file__), "..", "..", "figures")
+OUT = os.path.join(os.path.dirname(__file__), "..", "..", "..", "jaamas_journal")
 
 plt.rcParams["font.family"] = "Times New Roman"
 plt.rcParams["font.size"] = 10
@@ -107,8 +107,8 @@ def fig_pipeline():
 
     fig.tight_layout()
     for ext in ("pdf", "png"):
-        fig.savefig(os.path.join(OUT, f"fig_pipeline.{ext}"), dpi=300)
-    print(f"[viz] fig_pipeline.{'pdf'}")
+        fig.savefig(os.path.join(OUT, f"Fig1.{ext}"), dpi=300)   # 官方命名规范 Fig<编号>
+    print(f"[viz] Fig1.{'pdf'}")
     plt.close(fig)
 
 

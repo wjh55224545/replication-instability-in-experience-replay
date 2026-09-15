@@ -37,6 +37,7 @@ python scripts/paper/pool_compare.py            # the 5-vs-5 Mann–Whitney comp
 python scripts/paper/heterogeneity.py           # Cochran's Q, I², τ² (Sec. 5.4)
 python scripts/paper/power_numbers.py           # detectable-effect figures (Sec. 5.7)
 python scripts/paper/recompute_two_tailed.py    # every p-value, one- vs two-tailed, plus the FDR check
+python scripts/paper/analyze_expert_eval.py     # the five expert raters: level, agreement, and vs. the judge
 python scripts/paper/recheck_mdes.py            # recomputes them, and checks the formula
 python scripts/paper/check_profile_distribution.py   # profile construction vs. the record store (Sec. 4.1)
 python scripts/paper/probe_psychdb.py           # every aggregation variant of the source database
@@ -66,7 +67,8 @@ python scripts/paper/run_ab_repeated.py
 ```
 ├── scripts/paper/         43 analysis, experiment, and figure scripts
 ├── data/                  raw output of every experiment
-│   └── human_eval/        the 12 reports used for the evaluator analysis, plus judge scores
+│   ├── human_eval/        the 12 reports used for the evaluator analysis, plus judge scores
+│   └── expert_eval/       five expert score sheets (12 reports x 8 dimensions) and the LLM scores they are compared against
 ├── figures/               the paper's figures (PDF + PNG)
 ├── logs/llm_calls.jsonl   every LLM call: model, timestamp, tokens, latency
 └── backend/               the three platform modules the scripts import
@@ -88,6 +90,7 @@ python scripts/paper/run_ab_repeated.py
 | §5.4 ten identical runs | `replicate_runs_parallel.py <model> 5 3` | `data/*_replicate_run*.json` |
 | §5.4 heterogeneity | `heterogeneity.py` | `data/heterogeneity_results.json` |
 | §5.5 evaluator analysis | `cross_eval_recheck.py` (needs API), `cross_eval_reverse.py` | `data/cross_eval_recheck.json` |
+| §5.5 expert raters | **`analyze_expert_eval.py`** — no model calls | `data/expert_eval_analysis.json` |
 | §5.7 ablation | `run_ablation.py` | `data/ablation_results.json` |
 | §5.7 power figures | `power_numbers.py`, `recheck_mdes.py` | prints |
 | §5.4 multiplicity (FDR) | `recompute_two_tailed.py` | `data/two_tailed_recompute.json` |
@@ -149,7 +152,7 @@ The record store contains placeholder names only (张三 / 李四 / 王五) and 
 | `data/uploads/`, `data/demo/`, `data/yolov8n.pt` | Unrelated application assets (~87 MB) |
 | Manuscript-preparation tooling (LaTeX→Word conversion, cross-reference and spelling checkers) | Concerned with producing the submission file, not with the results |
 | Scripts superseded during development | 11 earlier document-generation scripts written against manuscript paths that no longer exist |
-| Human-evaluation scoring materials | The human evaluation was **designed but never run**; the paper reports the absence of expert ratings as a limitation. The 12 report texts it would have used are kept, since the evaluator analysis scores them |
+| — | The five expert score sheets **are** included, under `data/expert_eval/`. They contain scores only: no names, no contact details, and no information about the raters beyond an arbitrary number |
 
 ---
 

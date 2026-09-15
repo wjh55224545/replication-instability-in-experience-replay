@@ -157,7 +157,7 @@ def main():
 
     fig.tight_layout()
     for ext in ("pdf", "png"):
-        path = os.path.join(OUT, f"fig_instability.{ext}")
+        path = os.path.join(OUT, f"Fig2.{ext}")   # 官方要求图片按 "Fig<编号>" 命名
         fig.savefig(path, dpi=300, bbox_inches="tight")
         print(f"[viz] {path}")
     plt.close(fig)
