@@ -1,0 +1,1691 @@
+{
+  "meta": {
+    "model": "deepseek",
+    "n_cases": 10,
+    "n_repeat": 3,
+    "n_runs": 5,
+    "horizon": 5
+  },
+  "runs": [
+    {
+      "run": 1,
+      "store_size": 4,
+      "results": [
+        {
+          "case": 0,
+          "s0": 0.752,
+          "n0": 0.456,
+          "baseline": [
+            0.716,
+            0.716,
+            0.716
+          ],
+          "baseline_mean": 0.7159999999999999,
+          "baseline_green": 0.0,
+          "random": [
+            0.896,
+            0.896,
+            0.896
+          ],
+          "random_mean": 0.896,
+          "random_green": 1.0,
+          "matched": [
+            0.896,
+            0.896,
+            0.896
+          ],
+          "matched_mean": 0.896,
+          "matched_green": 1.0,
+          "filler": [
+            0.716,
+            0.716,
+            0.716
+          ],
+          "filler_mean": 0.7159999999999999,
+          "filler_green": 0.0
+        },
+        {
+          "case": 1,
+          "s0": 0.705,
+          "n0": 0.457,
+          "baseline": [
+            0.739,
+            0.739,
+            0.739
+          ],
+          "baseline_mean": 0.739,
+          "baseline_green": 0.0,
+          "random": [
+            0.919,
+            0.919,
+            0.919
+          ],
+          "random_mean": 0.919,
+          "random_green": 1.0,
+          "matched": [
+            0.919,
+            0.919,
+            0.919
+          ],
+          "matched_mean": 0.919,
+          "matched_green": 1.0,
+          "filler": [
+            0.739,
+            0.739,
+            0.739
+          ],
+          "filler_mean": 0.739,
+          "filler_green": 0.0
+        },
+        {
+          "case": 2,
+          "s0": 0.743,
+          "n0": 0.507,
+          "baseline": [
+            0.695,
+            0.695,
+            0.695
+          ],
+          "baseline_mean": 0.695,
+          "baseline_green": 0.0,
+          "random": [
+            0.875,
+            0.875,
+            0.875
+          ],
+          "random_mean": 0.875,
+          "random_green": 1.0,
+          "matched": [
+            0.875,
+            0.875,
+            0.875
+          ],
+          "matched_mean": 0.875,
+          "matched_green": 1.0,
+          "filler": [
+            0.695,
+            0.695,
+            0.695
+          ],
+          "filler_mean": 0.695,
+          "filler_green": 0.0
+        },
+        {
+          "case": 3,
+          "s0": 0.711,
+          "n0": 0.5,
+          "baseline": [
+            0.7145,
+            0.7145,
+            0.7145
+          ],
+          "baseline_mean": 0.7145,
+          "baseline_green": 0.0,
+          "random": [
+            0.8945,
+            0.8945,
+            0.8945
+          ],
+          "random_mean": 0.8945,
+          "random_green": 1.0,
+          "matched": [
+            0.8945,
+            0.8945,
+            0.8945
+          ],
+          "matched_mean": 0.8945,
+          "matched_green": 1.0,
+          "filler": [
+            0.7145,
+            0.7145,
+            0.7145
+          ],
+          "filler_mean": 0.7145,
+          "filler_green": 0.0
+        },
+        {
+          "case": 4,
+          "s0": 0.704,
+          "n0": 0.586,
+          "baseline": [
+            0.675,
+            0.675,
+            0.675
+          ],
+          "baseline_mean": 0.6750000000000002,
+          "baseline_green": 0.0,
+          "random": [
+            0.855,
+            0.855,
+            0.855
+          ],
+          "random_mean": 0.855,
+          "random_green": 1.0,
+          "matched": [
+            0.855,
+            0.855,
+            0.855
+          ],
+          "matched_mean": 0.855,
+          "matched_green": 1.0,
+          "filler": [
+            0.675,
+            0.675,
+            0.675
+          ],
+          "filler_mean": 0.6750000000000002,
+          "filler_green": 0.0
+        },
+        {
+          "case": 5,
+          "s0": 0.742,
+          "n0": 0.511,
+          "baseline": [
+            0.6935,
+            0.6935,
+            0.6935
+          ],
+          "baseline_mean": 0.6934999999999999,
+          "baseline_green": 0.0,
+          "random": [
+            0.8735,
+            0.8735,
+            0.8735
+          ],
+          "random_mean": 0.8735,
+          "random_green": 1.0,
+          "matched": [
+            0.8735,
+            0.8735,
+            0.8735
+          ],
+          "matched_mean": 0.8735,
+          "matched_green": 1.0,
+          "filler": [
+            0.6935,
+            0.6935,
+            0.6935
+          ],
+          "filler_mean": 0.6934999999999999,
+          "filler_green": 0.0
+        },
+        {
+          "case": 6,
+          "s0": 0.734,
+          "n0": 0.58,
+          "baseline": [
+            0.663,
+            0.663,
+            0.663
+          ],
+          "baseline_mean": 0.663,
+          "baseline_green": 0.0,
+          "random": [
+            0.843,
+            0.843,
+            0.843
+          ],
+          "random_mean": 0.843,
+          "random_green": 1.0,
+          "matched": [
+            0.843,
+            0.843,
+            0.843
+          ],
+          "matched_mean": 0.843,
+          "matched_green": 1.0,
+          "filler": [
+            0.663,
+            0.663,
+            0.663
+          ],
+          "filler_mean": 0.663,
+          "filler_green": 0.0
+        },
+        {
+          "case": 7,
+          "s0": 0.702,
+          "n0": 0.577,
+          "baseline": [
+            0.6805,
+            0.6805,
+            0.6805
+          ],
+          "baseline_mean": 0.6805,
+          "baseline_green": 0.0,
+          "random": [
+            0.8605,
+            0.8605,
+            0.8605
+          ],
+          "random_mean": 0.8605,
+          "random_green": 1.0,
+          "matched": [
+            0.8605,
+            0.8605,
+            0.8605
+          ],
+          "matched_mean": 0.8605,
+          "matched_green": 1.0,
+          "filler": [
+            0.6805,
+            0.6805,
+            0.6805
+          ],
+          "filler_mean": 0.6805,
+          "filler_green": 0.0
+        },
+        {
+          "case": 8,
+          "s0": 0.73,
+          "n0": 0.546,
+          "baseline": [
+            0.682,
+            0.682,
+            0.862
+          ],
+          "baseline_mean": 0.742,
+          "baseline_green": 0.3333333333333333,
+          "random": [
+            0.862,
+            0.862,
+            0.862
+          ],
+          "random_mean": 0.862,
+          "random_green": 1.0,
+          "matched": [
+            0.862,
+            0.862,
+            0.862
+          ],
+          "matched_mean": 0.862,
+          "matched_green": 1.0,
+          "filler": [
+            0.682,
+            0.682,
+            0.682
+          ],
+          "filler_mean": 0.682,
+          "filler_green": 0.0
+        },
+        {
+          "case": 9,
+          "s0": 0.725,
+          "n0": 0.493,
+          "baseline": [
+            0.711,
+            0.711,
+            0.711
+          ],
+          "baseline_mean": 0.711,
+          "baseline_green": 0.0,
+          "random": [
+            0.891,
+            0.891,
+            0.891
+          ],
+          "random_mean": 0.891,
+          "random_green": 1.0,
+          "matched": [
+            0.891,
+            0.891,
+            0.891
+          ],
+          "matched_mean": 0.891,
+          "matched_green": 1.0,
+          "filler": [
+            0.711,
+            0.711,
+            0.711
+          ],
+          "filler_mean": 0.711,
+          "filler_green": 0.0
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "store_size": 3,
+      "results": [
+        {
+          "case": 0,
+          "s0": 0.752,
+          "n0": 0.456,
+          "baseline": [
+            0.716,
+            0.716,
+            0.716
+          ],
+          "baseline_mean": 0.7159999999999999,
+          "baseline_green": 0.0,
+          "random": [
+            0.896,
+            0.896,
+            0.896
+          ],
+          "random_mean": 0.896,
+          "random_green": 1.0,
+          "matched": [
+            0.896,
+            0.896,
+            0.896
+          ],
+          "matched_mean": 0.896,
+          "matched_green": 1.0,
+          "filler": [
+            0.716,
+            0.716,
+            0.716
+          ],
+          "filler_mean": 0.7159999999999999,
+          "filler_green": 0.0
+        },
+        {
+          "case": 1,
+          "s0": 0.705,
+          "n0": 0.457,
+          "baseline": [
+            0.739,
+            0.739,
+            0.739
+          ],
+          "baseline_mean": 0.739,
+          "baseline_green": 0.0,
+          "random": [
+            0.919,
+            0.919,
+            0.919
+          ],
+          "random_mean": 0.919,
+          "random_green": 1.0,
+          "matched": [
+            0.919,
+            0.919,
+            0.919
+          ],
+          "matched_mean": 0.919,
+          "matched_green": 1.0,
+          "filler": [
+            0.739,
+            0.739,
+            0.739
+          ],
+          "filler_mean": 0.739,
+          "filler_green": 0.0
+        },
+        {
+          "case": 2,
+          "s0": 0.743,
+          "n0": 0.507,
+          "baseline": [
+            0.695,
+            0.695,
+            0.695
+          ],
+          "baseline_mean": 0.695,
+          "baseline_green": 0.0,
+          "random": [
+            0.875,
+            0.875,
+            0.875
+          ],
+          "random_mean": 0.875,
+          "random_green": 1.0,
+          "matched": [
+            0.875,
+            0.875,
+            0.875
+          ],
+          "matched_mean": 0.875,
+          "matched_green": 1.0,
+          "filler": [
+            0.695,
+            0.695,
+            0.695
+          ],
+          "filler_mean": 0.695,
+          "filler_green": 0.0
+        },
+        {
+          "case": 3,
+          "s0": 0.711,
+          "n0": 0.5,
+          "baseline": [
+            0.7145,
+            0.7145,
+            0.7045
+          ],
+          "baseline_mean": 0.7111666666666667,
+          "baseline_green": 0.0,
+          "random": [
+            0.8945,
+            0.8945,
+            0.8945
+          ],
+          "random_mean": 0.8945,
+          "random_green": 1.0,
+          "matched": [
+            0.8945,
+            0.8945,
+            0.8945
+          ],
+          "matched_mean": 0.8945,
+          "matched_green": 1.0,
+          "filler": [
+            0.7145,
+            0.7145,
+            0.7145
+          ],
+          "filler_mean": 0.7145,
+          "filler_green": 0.0
+        },
+        {
+          "case": 4,
+          "s0": 0.704,
+          "n0": 0.586,
+          "baseline": [
+            0.675,
+            0.675,
+            0.675
+          ],
+          "baseline_mean": 0.6750000000000002,
+          "baseline_green": 0.0,
+          "random": [
+            0.855,
+            0.855,
+            0.855
+          ],
+          "random_mean": 0.855,
+          "random_green": 1.0,
+          "matched": [
+            0.855,
+            0.855,
+            0.855
+          ],
+          "matched_mean": 0.855,
+          "matched_green": 1.0,
+          "filler": [
+            0.675,
+            0.675,
+            0.675
+          ],
+          "filler_mean": 0.6750000000000002,
+          "filler_green": 0.0
+        },
+        {
+          "case": 5,
+          "s0": 0.742,
+          "n0": 0.511,
+          "baseline": [
+            0.6935,
+            0.6935,
+            0.6935
+          ],
+          "baseline_mean": 0.6934999999999999,
+          "baseline_green": 0.0,
+          "random": [
+            0.8735,
+            0.8735,
+            0.8735
+          ],
+          "random_mean": 0.8735,
+          "random_green": 1.0,
+          "matched": [
+            0.8735,
+            0.8735,
+            0.8735
+          ],
+          "matched_mean": 0.8735,
+          "matched_green": 1.0,
+          "filler": [
+            0.6935,
+            0.6935,
+            0.6935
+          ],
+          "filler_mean": 0.6934999999999999,
+          "filler_green": 0.0
+        },
+        {
+          "case": 6,
+          "s0": 0.734,
+          "n0": 0.58,
+          "baseline": [
+            0.663,
+            0.663,
+            0.663
+          ],
+          "baseline_mean": 0.663,
+          "baseline_green": 0.0,
+          "random": [
+            0.843,
+            0.843,
+            0.843
+          ],
+          "random_mean": 0.843,
+          "random_green": 1.0,
+          "matched": [
+            0.843,
+            0.843,
+            0.843
+          ],
+          "matched_mean": 0.843,
+          "matched_green": 1.0,
+          "filler": [
+            0.663,
+            0.663,
+            0.663
+          ],
+          "filler_mean": 0.663,
+          "filler_green": 0.0
+        },
+        {
+          "case": 7,
+          "s0": 0.702,
+          "n0": 0.577,
+          "baseline": [
+            0.6805,
+            0.8605,
+            0.6805
+          ],
+          "baseline_mean": 0.7404999999999999,
+          "baseline_green": 0.3333333333333333,
+          "random": [
+            0.8605,
+            0.8605,
+            0.8605
+          ],
+          "random_mean": 0.8605,
+          "random_green": 1.0,
+          "matched": [
+            0.8605,
+            0.8605,
+            0.8605
+          ],
+          "matched_mean": 0.8605,
+          "matched_green": 1.0,
+          "filler": [
+            0.6805,
+            0.6805,
+            0.6805
+          ],
+          "filler_mean": 0.6805,
+          "filler_green": 0.0
+        },
+        {
+          "case": 8,
+          "s0": 0.73,
+          "n0": 0.546,
+          "baseline": [
+            0.682,
+            0.682,
+            0.682
+          ],
+          "baseline_mean": 0.682,
+          "baseline_green": 0.0,
+          "random": [
+            0.862,
+            0.862,
+            0.862
+          ],
+          "random_mean": 0.862,
+          "random_green": 1.0,
+          "matched": [
+            0.862,
+            0.862,
+            0.862
+          ],
+          "matched_mean": 0.862,
+          "matched_green": 1.0,
+          "filler": [
+            0.682,
+            0.682,
+            0.682
+          ],
+          "filler_mean": 0.682,
+          "filler_green": 0.0
+        },
+        {
+          "case": 9,
+          "s0": 0.725,
+          "n0": 0.493,
+          "baseline": [
+            0.711,
+            0.711,
+            0.711
+          ],
+          "baseline_mean": 0.711,
+          "baseline_green": 0.0,
+          "random": [
+            0.891,
+            0.891,
+            0.891
+          ],
+          "random_mean": 0.891,
+          "random_green": 1.0,
+          "matched": [
+            0.891,
+            0.891,
+            0.891
+          ],
+          "matched_mean": 0.891,
+          "matched_green": 1.0,
+          "filler": [
+            0.711,
+            0.711,
+            0.711
+          ],
+          "filler_mean": 0.711,
+          "filler_green": 0.0
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "store_size": 3,
+      "results": [
+        {
+          "case": 0,
+          "s0": 0.752,
+          "n0": 0.456,
+          "baseline": [
+            0.716,
+            0.706,
+            0.716
+          ],
+          "baseline_mean": 0.7126666666666667,
+          "baseline_green": 0.0,
+          "random": [
+            0.896,
+            0.896,
+            0.896
+          ],
+          "random_mean": 0.896,
+          "random_green": 1.0,
+          "matched": [
+            0.896,
+            0.896,
+            0.896
+          ],
+          "matched_mean": 0.896,
+          "matched_green": 1.0,
+          "filler": [
+            0.716,
+            0.716,
+            0.716
+          ],
+          "filler_mean": 0.7159999999999999,
+          "filler_green": 0.0
+        },
+        {
+          "case": 1,
+          "s0": 0.705,
+          "n0": 0.457,
+          "baseline": [
+            0.739,
+            0.739,
+            0.739
+          ],
+          "baseline_mean": 0.739,
+          "baseline_green": 0.0,
+          "random": [
+            0.919,
+            0.919,
+            0.919
+          ],
+          "random_mean": 0.919,
+          "random_green": 1.0,
+          "matched": [
+            0.919,
+            0.919,
+            0.919
+          ],
+          "matched_mean": 0.919,
+          "matched_green": 1.0,
+          "filler": [
+            0.739,
+            0.739,
+            0.739
+          ],
+          "filler_mean": 0.739,
+          "filler_green": 0.0
+        },
+        {
+          "case": 2,
+          "s0": 0.743,
+          "n0": 0.507,
+          "baseline": [
+            0.875,
+            0.695,
+            0.695
+          ],
+          "baseline_mean": 0.7549999999999999,
+          "baseline_green": 0.3333333333333333,
+          "random": [
+            0.875,
+            0.875,
+            0.875
+          ],
+          "random_mean": 0.875,
+          "random_green": 1.0,
+          "matched": [
+            0.875,
+            0.875,
+            0.875
+          ],
+          "matched_mean": 0.875,
+          "matched_green": 1.0,
+          "filler": [
+            0.695,
+            0.695,
+            0.695
+          ],
+          "filler_mean": 0.695,
+          "filler_green": 0.0
+        },
+        {
+          "case": 3,
+          "s0": 0.711,
+          "n0": 0.5,
+          "baseline": [
+            0.7145,
+            0.7145,
+            0.7145
+          ],
+          "baseline_mean": 0.7145,
+          "baseline_green": 0.0,
+          "random": [
+            0.8945,
+            0.8945,
+            0.8945
+          ],
+          "random_mean": 0.8945,
+          "random_green": 1.0,
+          "matched": [
+            0.8945,
+            0.8945,
+            0.8945
+          ],
+          "matched_mean": 0.8945,
+          "matched_green": 1.0,
+          "filler": [
+            0.7145,
+            0.7145,
+            0.7145
+          ],
+          "filler_mean": 0.7145,
+          "filler_green": 0.0
+        },
+        {
+          "case": 4,
+          "s0": 0.704,
+          "n0": 0.586,
+          "baseline": [
+            0.675,
+            0.675,
+            0.675
+          ],
+          "baseline_mean": 0.6750000000000002,
+          "baseline_green": 0.0,
+          "random": [
+            0.855,
+            0.855,
+            0.855
+          ],
+          "random_mean": 0.855,
+          "random_green": 1.0,
+          "matched": [
+            0.855,
+            0.855,
+            0.855
+          ],
+          "matched_mean": 0.855,
+          "matched_green": 1.0,
+          "filler": [
+            0.675,
+            0.675,
+            0.675
+          ],
+          "filler_mean": 0.6750000000000002,
+          "filler_green": 0.0
+        },
+        {
+          "case": 5,
+          "s0": 0.742,
+          "n0": 0.511,
+          "baseline": [
+            0.6935,
+            0.6935,
+            0.6935
+          ],
+          "baseline_mean": 0.6934999999999999,
+          "baseline_green": 0.0,
+          "random": [
+            0.8735,
+            0.8735,
+            0.8735
+          ],
+          "random_mean": 0.8735,
+          "random_green": 1.0,
+          "matched": [
+            0.8735,
+            0.8735,
+            0.8735
+          ],
+          "matched_mean": 0.8735,
+          "matched_green": 1.0,
+          "filler": [
+            0.6935,
+            0.6935,
+            0.6935
+          ],
+          "filler_mean": 0.6934999999999999,
+          "filler_green": 0.0
+        },
+        {
+          "case": 6,
+          "s0": 0.734,
+          "n0": 0.58,
+          "baseline": [
+            0.663,
+            0.663,
+            0.663
+          ],
+          "baseline_mean": 0.663,
+          "baseline_green": 0.0,
+          "random": [
+            0.843,
+            0.843,
+            0.843
+          ],
+          "random_mean": 0.843,
+          "random_green": 1.0,
+          "matched": [
+            0.843,
+            0.843,
+            0.843
+          ],
+          "matched_mean": 0.843,
+          "matched_green": 1.0,
+          "filler": [
+            0.663,
+            0.663,
+            0.663
+          ],
+          "filler_mean": 0.663,
+          "filler_green": 0.0
+        },
+        {
+          "case": 7,
+          "s0": 0.702,
+          "n0": 0.577,
+          "baseline": [
+            0.8605,
+            0.6705,
+            0.6805
+          ],
+          "baseline_mean": 0.7371666666666666,
+          "baseline_green": 0.3333333333333333,
+          "random": [
+            0.8605,
+            0.8605,
+            0.8605
+          ],
+          "random_mean": 0.8605,
+          "random_green": 1.0,
+          "matched": [
+            0.8605,
+            0.8605,
+            0.8605
+          ],
+          "matched_mean": 0.8605,
+          "matched_green": 1.0,
+          "filler": [
+            0.6805,
+            0.6805,
+            0.6805
+          ],
+          "filler_mean": 0.6805,
+          "filler_green": 0.0
+        },
+        {
+          "case": 8,
+          "s0": 0.73,
+          "n0": 0.546,
+          "baseline": [
+            0.682,
+            0.682,
+            0.682
+          ],
+          "baseline_mean": 0.682,
+          "baseline_green": 0.0,
+          "random": [
+            0.862,
+            0.862,
+            0.862
+          ],
+          "random_mean": 0.862,
+          "random_green": 1.0,
+          "matched": [
+            0.862,
+            0.862,
+            0.862
+          ],
+          "matched_mean": 0.862,
+          "matched_green": 1.0,
+          "filler": [
+            0.682,
+            0.682,
+            0.682
+          ],
+          "filler_mean": 0.682,
+          "filler_green": 0.0
+        },
+        {
+          "case": 9,
+          "s0": 0.725,
+          "n0": 0.493,
+          "baseline": [
+            0.711,
+            0.711,
+            0.711
+          ],
+          "baseline_mean": 0.711,
+          "baseline_green": 0.0,
+          "random": [
+            0.891,
+            0.891,
+            0.891
+          ],
+          "random_mean": 0.891,
+          "random_green": 1.0,
+          "matched": [
+            0.891,
+            0.891,
+            0.891
+          ],
+          "matched_mean": 0.891,
+          "matched_green": 1.0,
+          "filler": [
+            0.711,
+            0.711,
+            0.711
+          ],
+          "filler_mean": 0.711,
+          "filler_green": 0.0
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "store_size": 4,
+      "results": [
+        {
+          "case": 0,
+          "s0": 0.752,
+          "n0": 0.456,
+          "baseline": [
+            0.716,
+            0.716,
+            0.716
+          ],
+          "baseline_mean": 0.7159999999999999,
+          "baseline_green": 0.0,
+          "random": [
+            0.896,
+            0.896,
+            0.896
+          ],
+          "random_mean": 0.896,
+          "random_green": 1.0,
+          "matched": [
+            0.896,
+            0.896,
+            0.896
+          ],
+          "matched_mean": 0.896,
+          "matched_green": 1.0,
+          "filler": [
+            0.716,
+            0.716,
+            0.716
+          ],
+          "filler_mean": 0.7159999999999999,
+          "filler_green": 0.0
+        },
+        {
+          "case": 1,
+          "s0": 0.705,
+          "n0": 0.457,
+          "baseline": [
+            0.739,
+            0.739,
+            0.739
+          ],
+          "baseline_mean": 0.739,
+          "baseline_green": 0.0,
+          "random": [
+            0.919,
+            0.919,
+            0.919
+          ],
+          "random_mean": 0.919,
+          "random_green": 1.0,
+          "matched": [
+            0.919,
+            0.919,
+            0.919
+          ],
+          "matched_mean": 0.919,
+          "matched_green": 1.0,
+          "filler": [
+            0.739,
+            0.739,
+            0.919
+          ],
+          "filler_mean": 0.799,
+          "filler_green": 0.3333333333333333
+        },
+        {
+          "case": 2,
+          "s0": 0.743,
+          "n0": 0.507,
+          "baseline": [
+            0.695,
+            0.695,
+            0.695
+          ],
+          "baseline_mean": 0.695,
+          "baseline_green": 0.0,
+          "random": [
+            0.875,
+            0.875,
+            0.875
+          ],
+          "random_mean": 0.875,
+          "random_green": 1.0,
+          "matched": [
+            0.875,
+            0.875,
+            0.875
+          ],
+          "matched_mean": 0.875,
+          "matched_green": 1.0,
+          "filler": [
+            0.695,
+            0.695,
+            0.695
+          ],
+          "filler_mean": 0.695,
+          "filler_green": 0.0
+        },
+        {
+          "case": 3,
+          "s0": 0.711,
+          "n0": 0.5,
+          "baseline": [
+            0.7145,
+            0.7145,
+            0.7145
+          ],
+          "baseline_mean": 0.7145,
+          "baseline_green": 0.0,
+          "random": [
+            0.8945,
+            0.8945,
+            0.8945
+          ],
+          "random_mean": 0.8945,
+          "random_green": 1.0,
+          "matched": [
+            0.8945,
+            0.8945,
+            0.8945
+          ],
+          "matched_mean": 0.8945,
+          "matched_green": 1.0,
+          "filler": [
+            0.7145,
+            0.7145,
+            0.7145
+          ],
+          "filler_mean": 0.7145,
+          "filler_green": 0.0
+        },
+        {
+          "case": 4,
+          "s0": 0.704,
+          "n0": 0.586,
+          "baseline": [
+            0.675,
+            0.675,
+            0.675
+          ],
+          "baseline_mean": 0.6750000000000002,
+          "baseline_green": 0.0,
+          "random": [
+            0.855,
+            0.855,
+            0.855
+          ],
+          "random_mean": 0.855,
+          "random_green": 1.0,
+          "matched": [
+            0.855,
+            0.855,
+            0.855
+          ],
+          "matched_mean": 0.855,
+          "matched_green": 1.0,
+          "filler": [
+            0.675,
+            0.675,
+            0.675
+          ],
+          "filler_mean": 0.6750000000000002,
+          "filler_green": 0.0
+        },
+        {
+          "case": 5,
+          "s0": 0.742,
+          "n0": 0.511,
+          "baseline": [
+            0.6935,
+            0.6935,
+            0.6935
+          ],
+          "baseline_mean": 0.6934999999999999,
+          "baseline_green": 0.0,
+          "random": [
+            0.8735,
+            0.8735,
+            0.8735
+          ],
+          "random_mean": 0.8735,
+          "random_green": 1.0,
+          "matched": [
+            0.8735,
+            0.8735,
+            0.8735
+          ],
+          "matched_mean": 0.8735,
+          "matched_green": 1.0,
+          "filler": [
+            0.6935,
+            0.6935,
+            0.6935
+          ],
+          "filler_mean": 0.6934999999999999,
+          "filler_green": 0.0
+        },
+        {
+          "case": 6,
+          "s0": 0.734,
+          "n0": 0.58,
+          "baseline": [
+            0.663,
+            0.663,
+            0.663
+          ],
+          "baseline_mean": 0.663,
+          "baseline_green": 0.0,
+          "random": [
+            0.843,
+            0.843,
+            0.843
+          ],
+          "random_mean": 0.843,
+          "random_green": 1.0,
+          "matched": [
+            0.843,
+            0.843,
+            0.843
+          ],
+          "matched_mean": 0.843,
+          "matched_green": 1.0,
+          "filler": [
+            0.663,
+            0.663,
+            0.663
+          ],
+          "filler_mean": 0.663,
+          "filler_green": 0.0
+        },
+        {
+          "case": 7,
+          "s0": 0.702,
+          "n0": 0.577,
+          "baseline": [
+            0.6805,
+            0.6805,
+            0.6805
+          ],
+          "baseline_mean": 0.6805,
+          "baseline_green": 0.0,
+          "random": [
+            0.8605,
+            0.8605,
+            0.8605
+          ],
+          "random_mean": 0.8605,
+          "random_green": 1.0,
+          "matched": [
+            0.8605,
+            0.8605,
+            0.8605
+          ],
+          "matched_mean": 0.8605,
+          "matched_green": 1.0,
+          "filler": [
+            0.6805,
+            0.6805,
+            0.6805
+          ],
+          "filler_mean": 0.6805,
+          "filler_green": 0.0
+        },
+        {
+          "case": 8,
+          "s0": 0.73,
+          "n0": 0.546,
+          "baseline": [
+            0.682,
+            0.682,
+            0.672
+          ],
+          "baseline_mean": 0.6786666666666666,
+          "baseline_green": 0.0,
+          "random": [
+            0.862,
+            0.862,
+            0.862
+          ],
+          "random_mean": 0.862,
+          "random_green": 1.0,
+          "matched": [
+            0.862,
+            0.862,
+            0.862
+          ],
+          "matched_mean": 0.862,
+          "matched_green": 1.0,
+          "filler": [
+            0.682,
+            0.682,
+            0.682
+          ],
+          "filler_mean": 0.682,
+          "filler_green": 0.0
+        },
+        {
+          "case": 9,
+          "s0": 0.725,
+          "n0": 0.493,
+          "baseline": [
+            0.711,
+            0.711,
+            0.891
+          ],
+          "baseline_mean": 0.7709999999999999,
+          "baseline_green": 0.3333333333333333,
+          "random": [
+            0.891,
+            0.891,
+            0.891
+          ],
+          "random_mean": 0.891,
+          "random_green": 1.0,
+          "matched": [
+            0.891,
+            0.891,
+            0.891
+          ],
+          "matched_mean": 0.891,
+          "matched_green": 1.0,
+          "filler": [
+            0.711,
+            0.711,
+            0.711
+          ],
+          "filler_mean": 0.711,
+          "filler_green": 0.0
+        }
+      ]
+    },
+    {
+      "run": 5,
+      "store_size": 4,
+      "results": [
+        {
+          "case": 0,
+          "s0": 0.752,
+          "n0": 0.456,
+          "baseline": [
+            0.716,
+            0.716,
+            0.716
+          ],
+          "baseline_mean": 0.7159999999999999,
+          "baseline_green": 0.0,
+          "random": [
+            0.896,
+            0.896,
+            0.896
+          ],
+          "random_mean": 0.896,
+          "random_green": 1.0,
+          "matched": [
+            0.896,
+            0.896,
+            0.896
+          ],
+          "matched_mean": 0.896,
+          "matched_green": 1.0,
+          "filler": [
+            0.716,
+            0.716,
+            0.716
+          ],
+          "filler_mean": 0.7159999999999999,
+          "filler_green": 0.0
+        },
+        {
+          "case": 1,
+          "s0": 0.705,
+          "n0": 0.457,
+          "baseline": [
+            0.739,
+            0.919,
+            0.739
+          ],
+          "baseline_mean": 0.799,
+          "baseline_green": 0.3333333333333333,
+          "random": [
+            0.919,
+            0.919,
+            0.919
+          ],
+          "random_mean": 0.919,
+          "random_green": 1.0,
+          "matched": [
+            0.919,
+            0.919,
+            0.919
+          ],
+          "matched_mean": 0.919,
+          "matched_green": 1.0,
+          "filler": [
+            0.739,
+            0.739,
+            0.739
+          ],
+          "filler_mean": 0.739,
+          "filler_green": 0.0
+        },
+        {
+          "case": 2,
+          "s0": 0.743,
+          "n0": 0.507,
+          "baseline": [
+            0.695,
+            0.695,
+            0.695
+          ],
+          "baseline_mean": 0.695,
+          "baseline_green": 0.0,
+          "random": [
+            0.875,
+            0.875,
+            0.875
+          ],
+          "random_mean": 0.875,
+          "random_green": 1.0,
+          "matched": [
+            0.875,
+            0.875,
+            0.875
+          ],
+          "matched_mean": 0.875,
+          "matched_green": 1.0,
+          "filler": [
+            0.695,
+            0.695,
+            0.695
+          ],
+          "filler_mean": 0.695,
+          "filler_green": 0.0
+        },
+        {
+          "case": 3,
+          "s0": 0.711,
+          "n0": 0.5,
+          "baseline": [
+            0.7045,
+            0.7145,
+            0.7145
+          ],
+          "baseline_mean": 0.7111666666666667,
+          "baseline_green": 0.0,
+          "random": [
+            0.8945,
+            0.8945,
+            0.8945
+          ],
+          "random_mean": 0.8945,
+          "random_green": 1.0,
+          "matched": [
+            0.8945,
+            0.8945,
+            0.8945
+          ],
+          "matched_mean": 0.8945,
+          "matched_green": 1.0,
+          "filler": [
+            0.7145,
+            0.7145,
+            0.7145
+          ],
+          "filler_mean": 0.7145,
+          "filler_green": 0.0
+        },
+        {
+          "case": 4,
+          "s0": 0.704,
+          "n0": 0.586,
+          "baseline": [
+            0.675,
+            0.675,
+            0.675
+          ],
+          "baseline_mean": 0.6750000000000002,
+          "baseline_green": 0.0,
+          "random": [
+            0.855,
+            0.855,
+            0.855
+          ],
+          "random_mean": 0.855,
+          "random_green": 1.0,
+          "matched": [
+            0.855,
+            0.855,
+            0.855
+          ],
+          "matched_mean": 0.855,
+          "matched_green": 1.0,
+          "filler": [
+            0.675,
+            0.675,
+            0.675
+          ],
+          "filler_mean": 0.6750000000000002,
+          "filler_green": 0.0
+        },
+        {
+          "case": 5,
+          "s0": 0.742,
+          "n0": 0.511,
+          "baseline": [
+            0.6935,
+            0.6935,
+            0.6935
+          ],
+          "baseline_mean": 0.6934999999999999,
+          "baseline_green": 0.0,
+          "random": [
+            0.8735,
+            0.8735,
+            0.8735
+          ],
+          "random_mean": 0.8735,
+          "random_green": 1.0,
+          "matched": [
+            0.8735,
+            0.8735,
+            0.8735
+          ],
+          "matched_mean": 0.8735,
+          "matched_green": 1.0,
+          "filler": [
+            0.6935,
+            0.6935,
+            0.6935
+          ],
+          "filler_mean": 0.6934999999999999,
+          "filler_green": 0.0
+        },
+        {
+          "case": 6,
+          "s0": 0.734,
+          "n0": 0.58,
+          "baseline": [
+            0.663,
+            0.663,
+            0.663
+          ],
+          "baseline_mean": 0.663,
+          "baseline_green": 0.0,
+          "random": [
+            0.843,
+            0.843,
+            0.843
+          ],
+          "random_mean": 0.843,
+          "random_green": 1.0,
+          "matched": [
+            0.843,
+            0.843,
+            0.843
+          ],
+          "matched_mean": 0.843,
+          "matched_green": 1.0,
+          "filler": [
+            0.663,
+            0.663,
+            0.663
+          ],
+          "filler_mean": 0.663,
+          "filler_green": 0.0
+        },
+        {
+          "case": 7,
+          "s0": 0.702,
+          "n0": 0.577,
+          "baseline": [
+            0.6805,
+            0.6805,
+            0.6805
+          ],
+          "baseline_mean": 0.6805,
+          "baseline_green": 0.0,
+          "random": [
+            0.8605,
+            0.8605,
+            0.8605
+          ],
+          "random_mean": 0.8605,
+          "random_green": 1.0,
+          "matched": [
+            0.8605,
+            0.8605,
+            0.8605
+          ],
+          "matched_mean": 0.8605,
+          "matched_green": 1.0,
+          "filler": [
+            0.6805,
+            0.6805,
+            0.6805
+          ],
+          "filler_mean": 0.6805,
+          "filler_green": 0.0
+        },
+        {
+          "case": 8,
+          "s0": 0.73,
+          "n0": 0.546,
+          "baseline": [
+            0.682,
+            0.682,
+            0.682
+          ],
+          "baseline_mean": 0.682,
+          "baseline_green": 0.0,
+          "random": [
+            0.862,
+            0.862,
+            0.862
+          ],
+          "random_mean": 0.862,
+          "random_green": 1.0,
+          "matched": [
+            0.862,
+            0.862,
+            0.862
+          ],
+          "matched_mean": 0.862,
+          "matched_green": 1.0,
+          "filler": [
+            0.682,
+            0.682,
+            0.682
+          ],
+          "filler_mean": 0.682,
+          "filler_green": 0.0
+        },
+        {
+          "case": 9,
+          "s0": 0.725,
+          "n0": 0.493,
+          "baseline": [
+            0.711,
+            0.711,
+            0.711
+          ],
+          "baseline_mean": 0.711,
+          "baseline_green": 0.0,
+          "random": [
+            0.891,
+            0.891,
+            0.891
+          ],
+          "random_mean": 0.891,
+          "random_green": 1.0,
+          "matched": [
+            0.891,
+            0.891,
+            0.891
+          ],
+          "matched_mean": 0.891,
+          "matched_green": 1.0,
+          "filler": [
+            0.711,
+            0.711,
+            0.711
+          ],
+          "filler_mean": 0.711,
+          "filler_green": 0.0
+        }
+      ]
+    }
+  ]
+}

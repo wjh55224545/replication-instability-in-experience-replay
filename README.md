@@ -40,6 +40,8 @@ python scripts/paper/recompute_two_tailed.py    # every p-value, one- vs two-tai
 python scripts/paper/analyze_expert_eval.py     # the five expert raters: level, agreement, and vs. the judge
 python scripts/paper/recheck_mdes.py            # recomputes them, and checks the formula
 python scripts/paper/check_profile_distribution.py   # profile construction vs. the record store (Sec. 4.1)
+python scripts/paper/traj_task.py               # the §5.10 task, and a check that its trap works
+python scripts/paper/traj_analyze.py pilot5     # the §5.10 run-to-run stability analysis
 python scripts/paper/probe_psychdb.py           # every aggregation variant of the source database
 ```
 
@@ -96,6 +98,7 @@ python scripts/paper/run_ab_repeated.py
 | §5.4 multiplicity (FDR) | `recompute_two_tailed.py` | `data/two_tailed_recompute.json` |
 | §5.8 safety checks | `safety_check.py` | prints |
 | §5.9 cross-task validation | `setselect_task.py`, `setselect_experiment.py`, `setselect_analyze.py` | `data/setselect_*.json` |
+| §5.10 trajectory task | **`traj_task.py`** (defines the task and the trap; no API), then `traj_experiment.py` (needs API), then `traj_analyze.py` | `data/traj_experiment_*.json` |
 | Figures 1–3 | `viz_jaamas.py`, `viz_instability.py`, `viz_replicates.py` | `figures/` |
 
 The **triage** and **setselect pilot** scripts record designs that did not work: an argmax-style
