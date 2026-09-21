@@ -10,7 +10,7 @@
   - **标注三处关键对比**：两个单次运行方向相反、池大小比较、同配置第二次运行
   - 两面板共享 x 轴与图例，配色沿用（单次=红 / 三次重复=蓝 / 第二次运行=橙）
 
-输出 jaamas_journal/Fig2.pdf / .png（官方要求图片按 "Fig<编号>" 命名）
+输出 jaamas_journal/Fig3.pdf / .png（官方要求图片按 "Fig<编号>" 命名）
 
 运行：cd 代码 && D:/python/python.exe scripts/paper/viz_instability.py
 """
@@ -163,7 +163,7 @@ def main():
 
     fig.tight_layout()
     for ext in ("pdf", "png"):
-        path = os.path.join(OUT, f"Fig2.{ext}")   # 官方要求图片按 "Fig<编号>" 命名
+        path = os.path.join(OUT, f"Fig3.{ext}")   # 官方要求图片按 "Fig<编号>" 命名
         fig.savefig(path, dpi=300, bbox_inches="tight")
         print(f"[viz] {path}")
     plt.close(fig)

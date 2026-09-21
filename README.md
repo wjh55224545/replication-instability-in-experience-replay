@@ -48,9 +48,9 @@ python scripts/paper/probe_psychdb.py           # every aggregation variant of t
 **Regenerating the figures:**
 
 ```bash
-python scripts/paper/viz_instability.py    # Figure 2 — the fifteen comparisons
-python scripts/paper/viz_replicates.py     # Figure 3 — ten runs of one configuration
-python scripts/paper/viz_jaamas.py         # Figure 1 — the pipeline diagram
+python scripts/paper/viz_instability.py    # Figure 3 — the fifteen comparisons
+python scripts/paper/viz_replicates.py     # Figure 4 — ten runs of one configuration
+python scripts/paper/viz_jaamas.py         # Figures 1 and 2 — the pipeline diagram
 ```
 
 Outputs land in `figures/`.
@@ -99,7 +99,7 @@ python scripts/paper/run_ab_repeated.py
 | §5.8 safety checks | `safety_check.py` | prints |
 | §5.9 cross-task validation | `setselect_task.py`, `setselect_experiment.py`, `setselect_analyze.py` | `data/setselect_*.json` |
 | §5.10 trajectory task | **`traj_task.py`** (defines the task and the trap; no API), then `traj_experiment.py` (needs API), then `traj_analyze.py` | `data/traj_experiment_*.json` |
-| Figures 1–3 | `viz_jaamas.py`, `viz_instability.py`, `viz_replicates.py` | `figures/` |
+| Figures 1–4 | `viz_jaamas.py` (Fig 1 pipeline, Fig 2 replay loop), `viz_instability.py` (Fig 3), `viz_replicates.py` (Fig 4) | `figures/` |
 
 The **triage** and **setselect pilot** scripts record designs that did not work: an argmax-style
 extraction task whose accuracy sat at the majority-class rate. They are kept because the pilot

@@ -146,8 +146,8 @@ def main():
     axes[0].set_ylabel("Independent run")
     fig.tight_layout()
     for ext in ("pdf", "png"):
-        fig.savefig(os.path.join(OUT, f"Fig3.{ext}"), dpi=400)   # 官方命名规范 Fig<编号>
-        print(f"[viz] Fig3.{ext}")
+        fig.savefig(os.path.join(OUT, f"Fig4.{ext}"), dpi=400)   # 官方命名规范 Fig<编号>
+        print(f"[viz] Fig4.{ext}")
 
     for title, model, rows in panels:
         d = [r[1] for r in rows]
