@@ -29,6 +29,17 @@ OUT = _PKG_FIGS if os.path.isdir(_PKG_FIGS) else _PROJ
 
 plt.rcParams["font.family"] = "Times New Roman"
 plt.rcParams["font.size"] = 10
+# ⚠️ 数学模式默认用 DejaVu（`mathtext.fontset: dejavusans`），**不受 font.family 控制**。
+# 于是 `$\Delta$`、`$p$` 会渲染成无衬线体，与正文的 Times 不一致 —— 实测 PDF 里确实
+# 同时嵌入了 DejaVuSans 与 TimesNewRoman。把 mathtext 指到 Times 家族即可统一，
+# 且保住统计量 p 的斜体（期刊惯例）。
+plt.rcParams.update({
+    "mathtext.fontset": "custom",
+    "mathtext.rm": "Times New Roman",
+    "mathtext.it": "Times New Roman:italic",
+    "mathtext.bf": "Times New Roman:bold",
+    "mathtext.cal": "Times New Roman:italic",
+})
 
 
 def fig_loop():

@@ -35,6 +35,13 @@ OUT = _PKG_FIGS if os.path.isdir(_PKG_FIGS) else _PROJ
 
 plt.rcParams.update({
     "font.family": "Times New Roman",
+    # ⚠️ 数学模式默认走 DejaVu，**不受 font.family 控制**；不指到 Times 的话，
+    # `$\Delta$` 会是无衬线体（实测 PDF 中确实混入了 DejaVuSans）。
+    "mathtext.fontset": "custom",
+    "mathtext.rm": "Times New Roman",
+    "mathtext.it": "Times New Roman:italic",
+    "mathtext.bf": "Times New Roman:bold",
+    "mathtext.cal": "Times New Roman:italic",
     "font.size": 11,
     "axes.linewidth": 0.9,
     "axes.labelsize": 11.5,
