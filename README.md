@@ -41,7 +41,7 @@ python scripts/paper/analyze_expert_eval.py     # the five expert raters: level,
 python scripts/paper/recheck_mdes.py            # recomputes them, and checks the formula
 python scripts/paper/check_profile_distribution.py   # profile construction vs. the record store (Sec. 4.1)
 python scripts/paper/traj_task.py               # the §5.10 task, and a check that its trap works
-python scripts/paper/traj_analyze.py pilot5     # the §5.10 run-to-run stability analysis
+python scripts/paper/traj_analyze.py             # the §5.10 run-to-run stability analysis
 python scripts/paper/probe_psychdb.py           # every aggregation variant of the source database
 ```
 
@@ -67,7 +67,7 @@ python scripts/paper/run_ab_repeated.py
 ## Layout
 
 ```
-├── scripts/paper/         43 analysis, experiment, and figure scripts
+├── scripts/paper/         47 analysis, experiment, and figure scripts
 ├── data/                  raw output of every experiment
 │   ├── human_eval/        the 12 reports used for the evaluator analysis, plus judge scores
 │   └── expert_eval/       five expert score sheets (12 reports x 8 dimensions) and the LLM scores they are compared against
