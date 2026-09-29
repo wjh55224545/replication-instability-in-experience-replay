@@ -54,25 +54,30 @@ plt.rcParams.update({
 
 # (标签, 文件, 条件, 样式)；样式: single / rep / run2
 # 分面板：M1 六行，M2 九行
+#
+# 坑（2026-09-29）：原标签用空格填充对齐（"single run           random"），最长 33 字符，
+# 逼得画布要 10.2 in 宽；嵌入 6.5 in 栏宽后只剩 0.57 倍，10.5 pt 的字落到纸面仅 **6.0 pt**。
+# 参照《论文修改准则》第〇节第 2 条「字号按最终显示尺寸给」，把标签压到 ≤27 字符、
+# 画布压到与栏宽可比，字号才保得住。`3 reps` 是所有非单次行的共同前提，移入图注说明。
 PANELS = [
     ("(a) M1: Lingshu-32B", [
-        ("single run           random",  "ab_results.json",                None,      "single"),
-        ("single run           matched", "ab_semantic_results.json",       None,      "single"),
-        ("3 reps  pool 15  random",      "ab_repeated_results.json",       "random",  "rep"),
-        ("3 reps  pool 15  matched",     "ab_repeated_results.json",       "semantic", "rep"),
-        ("3 reps  pool 45  random",      "lingshu_bigpool_results.json",   "random",  "rep"),
-        ("3 reps  pool 45  matched",     "lingshu_bigpool_results.json",   "semantic", "rep"),
+        ("single  · random",        "ab_results.json",                None,       "single"),
+        ("single  · matched",       "ab_semantic_results.json",       None,       "single"),
+        ("pool 15 · random",        "ab_repeated_results.json",       "random",   "rep"),
+        ("pool 15 · matched",       "ab_repeated_results.json",       "semantic", "rep"),
+        ("pool 45 · random",        "lingshu_bigpool_results.json",   "random",   "rep"),
+        ("pool 45 · matched",       "lingshu_bigpool_results.json",   "semantic", "rep"),
     ]),
     ("(b) M2: DeepSeek chat", [
-        ("single run           random",  "deepseek_ab_random.json",        None,      "single"),
-        ("single run           matched", "deepseek_ab_semantic.json",      None,      "single"),
-        ("3 reps  pool 15  random",      "deepseek_repeated_results.json", "random",  "rep"),
-        ("3 reps  pool 15  matched",     "deepseek_repeated_results.json", "semantic", "rep"),
-        ("3 reps  pool 45  random",      "deepseek_bigpool_results.json",  "random",  "rep"),
-        ("3 reps  pool 45  matched",     "deepseek_bigpool_results.json",  "semantic", "rep"),
-        ("3 reps  pool 45  run 2  random",  "deepseek_diversity_results.json", "random",    "run2"),
-        ("3 reps  pool 45  run 2  matched", "deepseek_diversity_results.json", "similar",   "run2"),
-        ("3 reps  pool 45  run 2  other-tier", "deepseek_diversity_results.json", "different", "run2"),
+        ("single  · random",        "deepseek_ab_random.json",        None,       "single"),
+        ("single  · matched",       "deepseek_ab_semantic.json",      None,       "single"),
+        ("pool 15 · random",        "deepseek_repeated_results.json", "random",   "rep"),
+        ("pool 15 · matched",       "deepseek_repeated_results.json", "semantic", "rep"),
+        ("pool 45 · random",        "deepseek_bigpool_results.json",  "random",   "rep"),
+        ("pool 45 · matched",       "deepseek_bigpool_results.json",  "semantic", "rep"),
+        ("pool 45 (2nd) · random",     "deepseek_diversity_results.json", "random",    "run2"),
+        ("pool 45 (2nd) · matched",    "deepseek_diversity_results.json", "similar",   "run2"),
+        ("pool 45 (2nd) · other-tier", "deepseek_diversity_results.json", "different", "run2"),
     ]),
 ]
 
@@ -110,7 +115,7 @@ def paired_stats(path, cond=None):
 def main():
     # ⚠️ 两面板必须**等宽且 x 轴一致**：否则同样长度的误差条在两边的视觉长度不同，
     # 读者会误判效应量大小。（首版用 width_ratios=[6,9]，正是这个问题。）
-    fig, axes = plt.subplots(1, 2, figsize=(10.2, 3.9), sharex=True)
+    fig, axes = plt.subplots(1, 2, figsize=(7.6, 4.0), sharex=True)
 
     for ax, (title, rows) in zip(axes, PANELS):
         ys = np.arange(len(rows))[::-1]
@@ -148,10 +153,10 @@ def main():
                 arrowprops=dict(arrowstyle="-", color="#C44E52", linewidth=0.8,
                                 shrinkA=0, shrinkB=3))
 
-    # ② 池大小：复现后无差别（放在 M1 面板下半部的空白处）
-    a0.text(-0.33, -0.90, "pool 15 vs pool 45 indistinguishable\n"
-                          "after replication (Mann–Whitney\n$p$ = 0.42, 1.00)",
-            fontsize=7.6, color="0.30", ha="left", va="center")
+    # ② 池大小：复现后无差别 —— 改到图注里说（原本画在图内左下角，
+    #    2026-09-29 画布压窄后那段文字相对变宽，**压到了最后一行的误差棒**，故移出）。
+    #    图注已写明「the two pool sizes are indistinguishable once replicated」，
+    #    并在其中补上 Mann–Whitney 的 p 值。
 
     # ③ 同配置第二次运行
     a1.annotate("same configuration,\nsecond run", xy=(0.092, 2), xytext=(0.155, 4.05),
