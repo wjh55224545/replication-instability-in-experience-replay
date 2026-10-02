@@ -7,15 +7,15 @@ authors:
   - family-names: Wang
     given-names: Jianhao
     orcid: "https://orcid.org/0009-0006-9764-8496"
-    affiliation: "School of Artificial Intelligence, South China Normal University"
+    affiliation: "School of Artificial Intelligence, South China Normal University, Foshan, China"
   - family-names: Wu
     given-names: Kaijia
     orcid: "https://orcid.org/0009-0000-8134-2755"
-    affiliation: "School of Artificial Intelligence, South China Normal University"
+    affiliation: "School of Artificial Intelligence, South China Normal University, Foshan, China"
   - family-names: Liu
     given-names: Shouqiang
     orcid: "https://orcid.org/0000-0002-2795-0685"
-    affiliation: "School of Artificial Intelligence, South China Normal University"
+    affiliation: "School of Artificial Intelligence, South China Normal University, Foshan, China"
 repository-code: "https://github.com/wjh55224545/replication-instability-in-experience-replay"
 url: "https://github.com/wjh55224545/replication-instability-in-experience-replay"
 license: MIT

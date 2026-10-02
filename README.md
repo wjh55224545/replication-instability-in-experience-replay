@@ -183,7 +183,7 @@ If you use this code or data, please cite the manuscript (details on acceptance)
 > Manuscript under review.
 
 Correspondence: Shouqiang Liu (corresponding author), School of Artificial Intelligence,
-South China Normal University.
+South China Normal University, Foshan, China.
 
 ## License
 
